@@ -460,6 +460,25 @@ input:focus {
   border-bottom: 1px solid #DD22E696;
 }
 
+/* footer */
+.footer_bg {
+  background-image: url('./assets/img/png/footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.w_footerLogo {
+  width: 196.38px;
+  height: 148px;
+}
+
+.footer_line {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(126.14deg, #6900A8 3.66%, #98019F 95.92%);
+}
+
 /* ==================================== */
 @media (max-width:576px) {
   .rightLeave {

@@ -10,29 +10,41 @@ function StoreHours() {
           </h2>
           <div
             className="d-flex mt-5 justify-content-center ff_Montserrat fs_xl fw-semibold
-           text-white"
+           text-white flex-column flex-sm-row"
           >
-            <p className="text-center borderBottom pb-2">Mon : 10am-8pm</p>
-            <p className="text-center borderBottom pb-2 ms-5">Tue : 10am-8pm</p>
+            <p className="text-center borderBottom pb-2 d-inline-block mx-5 mx-sm-0">
+              Mon : 10am-8pm
+            </p>
+            <p className="text-center borderBottom pb-2 ms-5 me-5 me-sm-0 d-inline-block">
+              Tue : 10am-8pm
+            </p>
           </div>
           <div
-            className="d-flex mt-5 justify-content-center ff_Montserrat fs_xl fw-semibold
-           text-white mt-4"
+            className="d-flex mt-sm-5 justify-content-center ff_Montserrat fs_xl fw-semibold
+           text-white mt-sm-4 flex-column flex-sm-row"
           >
-            <p className="text-center borderBottom pb-2">Wed : 10am-8pm</p>
-            <p className="text-center borderBottom pb-2 ms-5">Thu : 10am-8pm</p>
+            <p className="text-center borderBottom pb-2 d-inline-block mx-5 mx-sm-0">
+              Wed : 10am-8pm
+            </p>
+            <p className="text-center borderBottom pb-2 ms-5 me-5 me-sm-0 d-inline-block">
+              Thu : 10am-8pm
+            </p>
           </div>
           <div
-            className="d-flex mt-5 justify-content-center ff_Montserrat fs_xl fw-semibold
-           text-white mt-4"
+            className="d-flex mt-sm-5 justify-content-center ff_Montserrat fs_xl fw-semibold
+           text-white mt-sm-4 flex-column flex-sm-row"
           >
-            <p className="text-center borderBottom pb-2">Fri : 10am-8pm</p>
-            <p className="text-center borderBottom pb-2 ms-5">Sat : 10am-8pm</p>
+            <p className="text-center borderBottom pb-2 mx-5 mx-sm-0 d-inline-block">
+              Fri : 10am-8pm
+            </p>
+            <p className="text-center borderBottom pb-2 ms-5 me-5 me-sm-0 d-inline-block">
+              Sat : 10am-8pm
+            </p>
           </div>
-          <div className="text-center">
+          <div className="text-center mx-5 mx-sm-0">
             <p
               className="text-center borderBottom ff_Montserrat fs_xl fw-semibold
-           text-white mt-4 d-inline-block mx-auto"
+           text-white mt-sm-4 mx-auto mx-5 mx-sm-0 d-sm-inline-block"
             >
               Sun : 10am-8pm
             </p>
