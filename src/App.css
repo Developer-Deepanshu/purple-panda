@@ -33,6 +33,8 @@
 :root {
   /* ==================== color  */
   --color-blue: #07031D;
+  --color-blue-100: #15082F;
+  ;
   --color-purple: #2F015B;
   --color-purpleGrident: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%);
   --color-gray-grident: linear-gradient(0deg, #212121, #212121), linear-gradient(0deg, #565656, #565656);
@@ -58,6 +60,10 @@
 
 .bg_blue {
   background-color: var(--color-blue);
+}
+
+.bg_blue100 {
+  background-color: var(--color-blue-100);
 }
 
 .bg_purple {
@@ -359,6 +365,33 @@ input:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bgCardsCanadaMail {
+  background: rgba(22, 15, 47, 0.5);
+  border: 1.16879px solid #411A68;
+  backdrop-filter: blur(6.5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 28.051px;
+}
+
+.circles_canadaMail {
+  height: 115.26480102539062px;
+  width: 114.94900512695312px;
+  filter: drop-shadow(0px 6.03173px 22.619px rgba(201, 177, 255, 0.35));
+  border-radius: 50%;
+  background-color: white;
+  color: #A020F0;
+  top: -20%;
+  left: 50%;
+  transform: translate(-50%);
+  transition: 0.3s ease-in-out all;
+}
+
+.cardHover:hover .circles_canadaMail {
+  box-shadow: 0px 0px 20px 10px #15082F;
+  ;
 }
 
 /* ==================================== */

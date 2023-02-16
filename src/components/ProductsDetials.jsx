@@ -12,7 +12,7 @@ function ProductsDetials() {
   return (
     <>
       <section className="py-5">
-        <div className="container pt-5">
+        <div className="container py-5">
           <div className="row align-items-center justify-content-between flex-column flex-xl-row">
             <div className=" col-sm-9 col-xl-5">
               <img className="w-100" src={products} alt="products" />
