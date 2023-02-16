@@ -440,12 +440,24 @@ input:focus {
   padding-bottom: 12px;
 }
 
+/* ==========panda */
+
+.outlinePanda:hover .imgPanda {
+  outline: 2px solid #A020F0;
+  border-radius: 10px;
+}
+
 /* =========LatestBlogsAndNews */
 .LatestBlogsAndNews_bg {
   background-image: url('./assets/img/png/LatestBlogsAndNews_bg.png');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* time */
+.borderBottom {
+  border-bottom: 1px solid #DD22E696;
 }
 
 /* ==================================== */

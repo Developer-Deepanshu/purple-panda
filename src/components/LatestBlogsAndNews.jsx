@@ -18,7 +18,7 @@ function LatestBlogsAndNews() {
               netus natoque urna vivamus faucibus. Sollicitudin et nisl.
             </p>
             <div className="row pt-5">
-              <div className=" col-10  col-sm-6 col-xl-4 mx-auto">
+              <div className=" col-10 col-sm-6 col-xl-4 mx-auto ">
                 <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between">
                   <div>
                     <img
@@ -46,7 +46,7 @@ function LatestBlogsAndNews() {
                   </a>
                 </div>
               </div>
-              <div className=" col-10  col-sm-6 col-xl-4 mx-auto">
+              <div className=" col-10 col-sm-6 col-xl-4 mx-auto mt-4 mt-sm-0">
                 <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between">
                   <div>
                     <img className="w-100" src={raw} alt="raw " />
@@ -70,7 +70,7 @@ function LatestBlogsAndNews() {
                   </a>
                 </div>
               </div>
-              <div className=" col-10  col-sm-6 col-xl-4 mx-auto">
+              <div className=" col-10 col-sm-6 col-xl-4 mx-auto  mt-4 mt-xl-0">
                 <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between">
                   <div>
                     <img className="w-100" src={egestas} alt="egestas" />
