@@ -11,6 +11,7 @@
   text-decoration: none !important;
   list-style-type: none !important;
   box-sizing: border-box !important;
+  /* outline: 2px red solid; */
 }
 
 .ff_Montserrat {
@@ -330,6 +331,34 @@ input:focus {
 .rightLeave {
   top: 15%;
   right: -8%;
+}
+
+/* =================== price */
+.price_bg {
+  background: rgba(22, 15, 47, 0.5);
+  backdrop-filter: blur(9px);
+  border-radius: 10px;
+}
+
+.transform_scale {
+  transform: scale(1.07) translateY(-13px);
+}
+
+.outlinePurrple:hover {
+  outline: 2px solid #411A68;
+}
+
+/* =========== productsDetials */
+.w_50 {
+  width: 50px;
+}
+
+/* ==============canadaMail */
+.bg_canadaMail {
+  background-image: url('./assets/img/png/canadaMailOrder.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* ==================================== */

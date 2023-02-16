@@ -5,7 +5,7 @@ import rightLeave from "../assets/img/png/baseOnRight.png";
 function BaseOn() {
   return (
     <>
-      <section>
+      <section className="pb-5">
         <div className="container py-5">
           <div className="col-lg-7 mx-auto pb-4">
             <h3 className="fs_xl text-white ff_Montserrat fw-semibold mb-0 text-center">
