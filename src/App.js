@@ -5,6 +5,8 @@ import CanadaMailOrder from './components/CanadaMailOrder';
 import Cannabis from './components/Cannabis';
 import Express from './components/Express';
 import Hero from './components/Hero';
+import LatestBlogsAndNews from './components/LatestBlogsAndNews';
+import MostPopularItems from './components/MostPopularItems';
 import NavBar from './components/NavBar';
 import OurClassifications from './components/OurClassifications';
 import OurRange from './components/OurRange';
@@ -30,6 +32,8 @@ function App() {
         <CanadaMailOrder />
         <Cannabis />
         <OurClassifications />
+        <MostPopularItems />
+        <LatestBlogsAndNews />
       </div>
     </>
   );

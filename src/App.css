@@ -413,6 +413,41 @@ input:focus {
   width: 20px;
 }
 
+/* MostPopularItems */
+.MostPopularItems_bg {
+  background-image: url('./assets/img/png/mostPopularItems.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ======most popular items */
+.popularItems_bg {
+  background: rgba(22, 15, 47, 0.5);
+  backdrop-filter: blur(9px);
+  border-radius: 10px;
+  transition: 0.2s ease-in-out all;
+}
+
+.popularItems_bg:hover {
+  outline: 1.5px solid #6d22b4;
+}
+
+.p_addTOCart {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+
+/* =========LatestBlogsAndNews */
+.LatestBlogsAndNews_bg {
+  background-image: url('./assets/img/png/LatestBlogsAndNews_bg.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* ==================================== */
 @media (max-width:576px) {
   .rightLeave {
