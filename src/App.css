@@ -394,6 +394,25 @@ input:focus {
   ;
 }
 
+/* OurClassifications */
+.OurClassifications_bg {
+  background-image: url('./assets/img/png/OurClassifications_bg.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.OurClassifications_card_bg {
+  background: rgba(22, 15, 47, 0.5);
+  border: 1px solid #411A68;
+  backdrop-filter: blur(9px);
+  border-radius: 10px;
+}
+
+.w_20 {
+  width: 20px;
+}
+
 /* ==================================== */
 @media (max-width:576px) {
   .rightLeave {

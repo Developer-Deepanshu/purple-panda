@@ -6,6 +6,7 @@ import Cannabis from './components/Cannabis';
 import Express from './components/Express';
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
+import OurClassifications from './components/OurClassifications';
 import OurRange from './components/OurRange';
 import Price from './components/Price';
 import Products from './components/Products';
@@ -28,6 +29,7 @@ function App() {
         <ProductsDetials />
         <CanadaMailOrder />
         <Cannabis />
+        <OurClassifications />
       </div>
     </>
   );
