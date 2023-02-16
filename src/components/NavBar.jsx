@@ -128,31 +128,35 @@ function NavBar() {
                 </li>
                 <li className="position-relative d-md-none d-xl-block">
                   <input
-                    className=" input_nav ps-2 pe_30 py-1 text-white placeholderColor"
+                    className=" input_nav ps-2 pe_30 pt-1 pb-2 text-white placeholderColor"
                     type="text"
                     placeholder="Search here.."
                   />
                   <a href="" className="d-inline-block">
                     <img
-                      className="position-absolute search_btn_width position_search_btn bg_grayGrident"
+                      className="position-absolute search_btn_width position_search_btn
+                       bg_grayGrident"
                       src={searchBtn}
                       alt="searchBtn"
                     />
                   </a>
                 </li>
                 <li className=" d-md-none d-xl-block">
-                  <a href="" className="d-inline-block w-100">
+                  <a
+                    href=""
+                    className="d-inline-block w-100 transform_translateHover tranisition_02"
+                  >
                     <img
                       className="d-inline-block w-100"
                       src={cart_nav}
                       alt="cart"
                     />
                   </a>
-                </li>
                 <li className=" d-md-none d-xl-block">
                   <a
                     href=""
-                    className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn fw-bold fs_lg ff_Montserrat"
+                    className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn
+                     fw-bold fs_lg ff_Montserrat"
                   >
                     SIGN IN
                   </a>

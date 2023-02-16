@@ -1,6 +1,7 @@
 import React from "react";
 import panda_hero from "../assets/img/png/panda_hero.png";
 import rectangle from "../assets/img/svg/panda_rectangle.svg";
+import pandaGif from "../assets/img/gif/panda_gif.gif";
 
 function Hero() {
   return (
@@ -31,6 +32,11 @@ function Hero() {
               </a>
             </div>
             <div className="col-sm-8 col-xl-5 position-relative z_index_n1">
+              <img
+                className="border_radiusGif h_w_gif position-absolute position_gif position_gif_sm position_gif_md position_gif_lg position_gif_xl position_gif_xxl"
+                src={pandaGif}
+                alt="gif"
+              />
               <img className="w-100" src={panda_hero} alt="panda" />
             </div>
           </div>

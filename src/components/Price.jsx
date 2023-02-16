@@ -1,5 +1,5 @@
 import React from "react";
-import mushroom from "../assets/img/png/mushroomPrice.png";
+import mushroom from "../assets/img/png/mushroomPrice_2.png";
 
 function Price() {
   return (
@@ -8,7 +8,7 @@ function Price() {
         <div className="container pt-5">
           <div
             className="row align-items-center price_bg justify-content-between outlinePurrple
-           flex-column-reverse flex-xl-row pb-5 pb-xl-0"
+           flex-column-reverse flex-xl-row pb-5 pb-xl-0 hover_mushroom"
           >
             <div className="col-sm-8 col-xl-6 me-md-5">
               <div className="ms-md-5">
@@ -26,7 +26,8 @@ function Price() {
                 <div className="text-center text-xl-start">
                   <a
                     href=""
-                    className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn fw-bold
+                    className="d-inline-block text-white bg_purpleGrident border_radius40
+                     p_nav_signIn fw-bold
                  fs_lg ff_Montserrat mt-4"
                   >
                     GIVE PURPLE PANDA A GO
@@ -36,7 +37,7 @@ function Price() {
             </div>
             <div className="col-7 col-lg-4 ms-md-5 pe-xl-4">
               <img
-                className="w-100 transform_scale"
+                className="w-100 transform_scale mushroomImg"
                 src={mushroom}
                 alt="mushroom"
               />

@@ -17,7 +17,7 @@ function MostPopularItems() {
               netus natoque urna vivamus faucibus. Sollicitudin et nisl.
             </p>
             <div className="row pt-5">
-              <div className=" col-10 col-sm-6 col-md-5 col-xl-3 mx-auto">
+              <div className=" col-11 col-sm-6 col-md-5 col-xl-3 mx-auto">
                 <div className="popularItems_bg p-3">
                   <img className="w-100" src={stoner} alt="stoner Patch" />
                   <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
@@ -35,7 +35,7 @@ function MostPopularItems() {
                   </a>
                 </div>
               </div>
-              <div className=" col-10 col-sm-6 col-md-5 col-xl-3 mx-auto">
+              <div className=" col-11 col-sm-6 col-md-5 col-xl-3 mt-4 mt-sm-0 mx-auto">
                 <div className="popularItems_bg p-3">
                   <img className="w-100" src={atomic} alt="stoner atomic" />
                   <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
@@ -53,7 +53,7 @@ function MostPopularItems() {
                   </a>
                 </div>
               </div>
-              <div className=" col-10 col-sm-6 col-md-5 mt-4 mt-xl-0 col-xl-3 mx-auto">
+              <div className=" col-11 col-sm-6 col-md-5 mt-4 mt-xl-0 col-xl-3 mx-auto">
                 <div className="popularItems_bg p-3">
                   <img className="w-100" src={stick} alt="stoner stick" />
                   <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
@@ -71,7 +71,7 @@ function MostPopularItems() {
                   </a>
                 </div>
               </div>
-              <div className=" col-10 col-sm-6 col-md-5 mt-4 mt-xl-0 col-xl-3 mx-auto">
+              <div className=" col-11 col-sm-6 col-md-5 mt-4 mt-xl-0 col-xl-3 mx-auto">
                 <div className="popularItems_bg p-3">
                   <img className="w-100" src={stick} alt="stoner stick" />
                   <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">

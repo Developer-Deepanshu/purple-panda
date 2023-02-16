@@ -26,38 +26,38 @@ function Cannabis() {
              mt-5"
             >
               <div className="col-xl-6 mt-4 mt-xl-5">
-                <div className="bg_filter p-5 border_left">
-                  <h2 className="fw-normal text-white ff_Philosopher fs_xl4">
+                <div className="bg_filter p-3 p-sm-5 border_left">
+                  <h2 className="fw-normal text-white ff_Philosopher fs_xl4 text-center">
                     Strain
                     <span className="text_purpleGrident">Families</span>{" "}
                   </h2>
-                  <p className="text-white ff_Montserrat fs_md fw-normal mb-0">
+                  <p className="text-white ff_Montserrat fs_md fw-normal mb-0 text-center">
                     We stock the three main families of cannabis at Purple
                     Panda, each of which has its own qualities.
                   </p>
-                  <div className="d-flex align-items-center mt-4">
+                  <div className="d-flex align-items-center mt-4 flex-column flex-sm-row">
                     <p className="fs_xl text-white fw-semibold ff_Montserrat">
                       Indica:
                     </p>
-                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3">
+                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center">
                       These are your bedtime buds, great for relaxing at the end
                       of the day and for treating stress and anxiety.
                     </p>
                   </div>
-                  <div className="d-flex align-items-center mt-4">
+                  <div className="d-flex align-items-center mt-4 flex-column flex-sm-row">
                     <p className="fs_xl text-white fw-semibold ff_Montserrat">
                       Sativa:
                     </p>
-                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3">
+                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center">
                       Smoke up some Sativa for a boost of energy and creativity,
                       perfect for a sunny summer’s day with friends!
                     </p>
                   </div>
-                  <div className="d-flex align-items-center mt-4">
+                  <div className="d-flex align-items-center mt-4 flex-column flex-sm-row">
                     <p className="fs_xl text-white fw-semibold ff_Montserrat">
                       Hybrid:
                     </p>
-                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3">
+                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center">
                       Get the best of both worlds with our Hybrid range,
                       bringing together the sensations and flavors of Indica and
                       Sativa for something totally unique.

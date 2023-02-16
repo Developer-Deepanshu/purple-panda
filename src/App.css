@@ -145,6 +145,14 @@
   margin-left: -100%;
 }
 
+.transform_translateHover:hover {
+  transform: translateY(-7px);
+}
+
+.tranisition_02 {
+  transition: 0.2s ease-in-out all;
+}
+
 /* ------------------------------------------------------------- */
 
 .nav_open {
@@ -237,6 +245,17 @@ input:focus {
 .z_index_2 {
   z-index: 2;
 }
+
+.border_radiusGif {
+  border-radius: 0px 0px 0px 350px;
+}
+
+.h_w_gif {
+  width: 164.21px;
+  height: 239.73px;
+}
+
+
 
 /* ============products */
 .w_164 {
@@ -336,7 +355,7 @@ input:focus {
 
 .rightLeave {
   top: 15%;
-  right: -8%;
+  right: -5%;
 }
 
 /* =================== price */
@@ -353,6 +372,11 @@ input:focus {
 .outlinePurrple:hover {
   outline: 2px solid #411A68;
 }
+
+/* .hover_mushroom:hover .mushroomImg {
+  background: #b266e1;
+  filter: blur(11.976px);
+} */
 
 /* =========== productsDetials */
 .w_50 {
@@ -484,10 +508,106 @@ input:focus {
   .rightLeave {
     right: 0% !important;
   }
+
+  :root {
+    --text-xsm: 12px;
+    --text-sm: 12px;
+    --text-md: 12px;
+    --text-lg: 12px;
+    --text-xl: 20px;
+    --text-xl2: 25px;
+    --text-xl3: 33px;
+    --text-xl4: 31px;
+    --text-xl5: 44px;
+  }
+}
+
+@media (min-width:576px) {
+  :root {
+    --text-xsm: 12px;
+    --text-sm: 13px;
+    --text-md: 15px;
+    --text-lg: 16px;
+    --text-xl: 19px;
+    --text-xl2: 25px;
+    --text-xl3: 33px;
+    --text-xl4: 38px;
+    --text-xl5: 55px;
+  }
+
+  .position_gif_sm {
+    top: -75px;
+    left: -50px;
+  }
+
+}
+
+@media (min-width:772px) {
+  :root {
+    --text-xsm: 12px;
+    --text-sm: 13px;
+    --text-md: 16px;
+    --text-lg: 16px;
+    --text-xl: 23px;
+    --text-xl2: 27px;
+    --text-xl3: 33px;
+    --text-xl4: 42px;
+    --text-xl5: 65px;
+  }
+
+  .position_gif_md {
+    top: -20px;
+    left: -10px;
+  }
+}
+
+@media (min-width:992px) {
+  .position_gif_lg {
+    top: 42px;
+    left: 30px;
+  }
 }
 
 @media (min-width:1200px) {
   .nav_open {
     all: unset;
   }
+
+  :root {
+    --text-xsm: 12px;
+    --text-sm: 14px;
+    --text-md: 16px;
+    --text-lg: 18px;
+    --text-xl: 24px;
+    --text-xl2: 30px;
+    --text-xl3: 34px;
+    --text-xl4: 45px;
+    --text-xl5: 75px;
+  }
+
+  .position_gif_xl {
+    top: -20px;
+    left: -10px;
+  }
+
+}
+
+@media (min-width:1400) {
+  :root {
+    --text-xsm: 12px;
+    --text-sm: 14px;
+    --text-md: 16px;
+    --text-lg: 20px;
+    --text-xl: 24px;
+    --text-xl2: 32px;
+    --text-xl3: 35px;
+    --text-xl4: 48px;
+    --text-xl5: 80px;
+  }
+
+  .position_gif_xxl {
+    top: 0px;
+    left: 0px;
+  }
+
 }
