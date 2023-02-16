@@ -298,6 +298,16 @@ input:focus {
   border-bottom: 1px solid #401A68;
 }
 
+/* =============== Base on */
+.pink_dots {
+  background: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+
+
 /* ============================ ourRangeBG */
 .ourRangeBG {
   background-image: url('./assets/img/png/ourRange.png');
@@ -306,7 +316,29 @@ input:focus {
   background-size: cover;
 }
 
+.bg_bseOn {
+  background: rgba(22, 15, 47, 0.5);
+  border: 1.5px solid #411A68;
+  backdrop-filter: blur(9px);
+  border-radius: 10px;
+}
+
+.bg_bseOn:hover {
+  outline: 2px solid #411A68;
+}
+
+.rightLeave {
+  top: 15%;
+  right: -8%;
+}
+
 /* ==================================== */
+@media (max-width:576px) {
+  .rightLeave {
+    right: 0% !important;
+  }
+}
+
 @media (min-width:1200px) {
   .nav_open {
     all: unset;

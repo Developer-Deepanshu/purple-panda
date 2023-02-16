@@ -1,5 +1,6 @@
 import './App.css';
 import AboutUs from './components/AboutUs';
+import BaseOn from './components/BaseOn';
 import Express from './components/Express';
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
@@ -18,6 +19,7 @@ function App() {
         <AboutUs />
         <OurRange />
         <Express />
+        <BaseOn />
       </div>
     </>
   );
