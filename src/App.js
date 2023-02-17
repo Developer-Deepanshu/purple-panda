@@ -12,11 +12,13 @@ import NavBar from './components/NavBar';
 import OurClassifications from './components/OurClassifications';
 import OurRange from './components/OurRange';
 import PandaCollection from './components/PandaCollection';
+import PotentCannabisAlert from './components/PotentCannabisAlert';
 import Price from './components/Price';
 import Products from './components/Products';
 import ProductsDetials from './components/ProductsDetials';
 import StoreHours from './components/StoreHours';
-
+import Contect from './components/Contect';
+import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <>
@@ -34,6 +36,7 @@ function App() {
         <ProductsDetials />
         <CanadaMailOrder />
         <Cannabis />
+        <PotentCannabisAlert />
         <OurClassifications />
         <MostPopularItems />
         <LatestBlogsAndNews />
@@ -41,6 +44,11 @@ function App() {
         <StoreHours />
         <Footer />
       </div>
+      <Contect />
+      <Routes>
+        <Route exact path='/' element={App} />
+        <Route exact path='/Contect' element={<Contect />} />
+      </Routes>
     </>
   );
 }

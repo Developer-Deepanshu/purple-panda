@@ -4,11 +4,11 @@ import star from "../assets/img/svg/purrpleStart.svg";
 function OurClassifications() {
   return (
     <>
-      <section className="pb-5">
+      <section className="py-5">
         <div className="OurClassifications_bg">
           <div className="container">
             <div className="row">
-              <div className="col-md-10 col-xl-6">
+              <div className="col-md-10 col-xl-6 mx_max_xl_auto ">
                 <div className="OurClassifications_card_bg py-4 px-3 px-sm-5">
                   <h2 className="fs_xl4 text-white fw-bold ff_Philosopher mb-3 text-center text-lg-start">
                     Our
@@ -120,7 +120,7 @@ function OurClassifications() {
                   <p className="text-white fw-normal ff_Montserrat fs_md mb-3 text-center text-lg-start">
                     Top-shelf buds for those special occasions.
                   </p>
-                  <div className="text-center text-lg-row">
+                  <div className="text-center text-lg-start text-lg-row">
                     <a
                       href=""
                       className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn

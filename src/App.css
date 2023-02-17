@@ -190,6 +190,10 @@ input:focus {
   outline: transparent !important;
 }
 
+textarea:focus {
+  outline: transparent !important;
+}
+
 .placeholderColor::placeholder {
   color: rgba(255, 255, 255, 0.842) !important;
   font-size: var(--text-xsm);
@@ -287,8 +291,6 @@ input:focus {
 
 .d_grid {
   display: grid;
-  /* grid-template-columns: auto;
-  grid-template-rows: auto; */
   column-gap: 13.13px;
   row-gap: 13.13px;
 }
@@ -395,8 +397,6 @@ input:focus {
   background: rgba(22, 15, 47, 0.5);
   border: 1.16879px solid #411A68;
   backdrop-filter: blur(6.5px);
-  /* Note: backdrop-filter has minimal browser support */
-
   border-radius: 28.051px;
 }
 
@@ -416,6 +416,74 @@ input:focus {
 .cardHover:hover .circles_canadaMail {
   box-shadow: 0px 0px 20px 10px #15082F;
   ;
+}
+
+/* spaceship */
+.starBg {
+  background-image: url('./assets/img/png/spaceShip.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacecannabis_position {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+}
+
+.w_countDown {
+  width: 10%;
+}
+
+.p_countDown {
+  left: 50%;
+  top: 53%;
+  transform: translateX(-50%);
+}
+
+.p_space_cloude1 {
+  height: 67.41551971435547px;
+  width: 141.01988220214844px;
+}
+
+.p_space_cloude2 {
+  height: 63.10625076293945px;
+  width: 132.0506134033203px;
+}
+
+.p_space_cloude3 {
+  height: 51.14060592651367px;
+  width: 107.00872802734375px;
+}
+
+.p_space_cloude4 {
+  height: 63.10625076293945px;
+  width: 132.0506134033203px;
+}
+
+.position_space_cloude1 {
+  top: 10%;
+  left: 25%;
+  z-index: 1;
+}
+
+.position_space_cloude2 {
+  top: 30%;
+  left: 10%;
+  z-index: 1;
+}
+
+.position_space_cloude3 {
+  top: 10%;
+  right: 30%;
+  z-index: 1;
+}
+
+.position_space_cloude4 {
+  top: 45%;
+  right: 10%;
+  z-index: 1;
 }
 
 /* OurClassifications */
@@ -503,6 +571,22 @@ input:focus {
   background: linear-gradient(126.14deg, #6900A8 3.66%, #98019F 95.92%);
 }
 
+/* ================== contact */
+.Contact_bg {
+  background-image: url('./assets/img/png/contect_bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form_input {
+  background: rgba(22, 15, 47, 0.5);
+  border: 1px solid #411A68;
+  backdrop-filter: blur(9px);
+  border-radius: 4px;
+  color: white !important;
+}
+
 /* ==================================== */
 @media (max-width:576px) {
   .rightLeave {
@@ -519,6 +603,14 @@ input:focus {
     --text-xl3: 33px;
     --text-xl4: 31px;
     --text-xl5: 44px;
+  }
+
+  .w_countDown {
+    width: 15%;
+  }
+
+  .mb_n20 {
+    margin-top: -27%;
   }
 }
 
@@ -540,9 +632,16 @@ input:focus {
     left: -50px;
   }
 
+  .w_countDown {
+    width: 14%;
+  }
+
+  .mb_n20 {
+    margin-top: -15%;
+  }
 }
 
-@media (min-width:772px) {
+@media (min-width:768px) {
   :root {
     --text-xsm: 12px;
     --text-sm: 13px;
@@ -559,12 +658,31 @@ input:focus {
     top: -20px;
     left: -10px;
   }
+
+  .w_countDown {
+    width: 8%;
+  }
+
+  .mb_n20 {
+    margin-top: -12%;
+  }
 }
 
 @media (min-width:992px) {
   .position_gif_lg {
     top: 42px;
     left: 30px;
+  }
+
+  .mb_n20 {
+    margin-top: -10%;
+  }
+}
+
+@media (max-width:1200px) {
+  .mx_max_xl_auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -590,6 +708,9 @@ input:focus {
     left: -10px;
   }
 
+  .mb_n20 {
+    margin-top: -9%;
+  }
 }
 
 @media (min-width:1400) {
@@ -610,4 +731,24 @@ input:focus {
     left: 0px;
   }
 
+}
+
+/* ======================= animation */
+
+.animation_cloudes {
+  animation: clouds 6s linear infinite alternate-reverse;
+}
+
+@keyframes clouds {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(50%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
 }

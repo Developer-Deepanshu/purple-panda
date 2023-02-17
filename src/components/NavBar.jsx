@@ -3,6 +3,7 @@ import gift from "../assets/img/svg/mdi_gift.svg";
 import logo from "../assets/img/svg/logo.svg";
 import searchBtn from "../assets/img/svg/search_btn.svg";
 import cart_nav from "../assets/img/svg/cart_nav.svg";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [open, setclose] = useState(false);
@@ -111,12 +112,14 @@ function NavBar() {
                   </a>
                 </li>
                 <li className="me-3">
-                  <a
-                    className="text-white text_strokeWhite d-inline-block"
-                    href="#"
-                  >
-                    CONTACT
-                  </a>
+                  <Link exact to="/Contect">
+                    <a
+                      className="text-white text_strokeWhite d-inline-block"
+                      href="#"
+                    >
+                      CONTACT
+                    </a>
+                  </Link>
                 </li>
                 <li className="me-3">
                   <a
