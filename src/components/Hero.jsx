@@ -2,11 +2,35 @@ import React from "react";
 import panda_hero from "../assets/img/png/panda_hero.png";
 import rectangle from "../assets/img/svg/panda_rectangle.svg";
 import pandaGif from "../assets/img/gif/panda_gif.gif";
+import upArrow from "../assets/img/png/up-arrow.png";
 
 function Hero() {
+  window.onscroll = () => {
+    toggleTopButton();
+  };
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  function toggleTopButton() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      document.getElementById("back-to-up").classList.remove("d-none");
+    } else {
+      document.getElementById("back-to-up").classList.add("d-none");
+    }
+  }
   return (
     <>
       <section className=" d-flex flex-column justify-content-center align-items-center flex-grow-1 position-relative">
+        <button
+          className="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle d-none "
+          onClick={scrollToTop}
+          id="back-to-up"
+        >
+          <img className="w-100" src={upArrow} alt="back to top" />
+        </button>
         <img
           className="position-absolute bottom-0 end_n30 h_700 z_index_2"
           src={rectangle}
