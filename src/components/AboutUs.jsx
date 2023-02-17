@@ -8,7 +8,7 @@ import flower from "../assets/img/png/flower_grid.png";
 function AboutUs() {
   return (
     <>
-      <section className="pb-5">
+      <section className="pb-5" id="About">
         <div className="aboutUsBG">
           <div className="container py-5">
             <div className="row align-items-center flex-column-reverse flex-xl-row">

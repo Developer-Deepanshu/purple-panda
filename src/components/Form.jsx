@@ -120,7 +120,6 @@ function Form() {
                       type="number"
                       autocomplete="off"
                       id="phoneId"
-                      maxLength="10"
                       placeholder="Phone number"
                       value={number}
                       onChange={(e) => setnumber(e.target.value)}

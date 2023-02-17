@@ -6,7 +6,7 @@ import atomic from "../assets/img/png/atomic.png";
 function MostPopularItems() {
   return (
     <>
-      <section className="py-5">
+      <section className="py-5" id="Shop">
         <div className="MostPopularItems_bg">
           <div className="container">
             <h2 className="fw-bold text-center ff_Philosopher text-white fs_xl4 pt-5">

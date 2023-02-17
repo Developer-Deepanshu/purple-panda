@@ -32,11 +32,16 @@ function NavBar() {
           </div>
         </div>
         <div className="container">
-          <div className=" d-flex align-items-xl-center justify-content-between flex-xl-row flex-column py-3">
+          <div
+            className=" d-flex align-items-xl-center justify-content-between flex-xl-row flex-column
+           py-3"
+          >
             <div className=" d-flex align-items-center justify-content-between">
-              <a href="#" className="d-inline-block">
-                <img className="w-100" src={logo} alt="logo" />
-              </a>
+              <Link exact to="/">
+                <a href="#" className="d-inline-block">
+                  <img className="w-100" src={logo} alt="logo" />
+                </a>
+              </Link>
               <div className="d-flex align-items-center">
                 <ul className="d-flex align-items-center gap-4 ps-0 mb-0 d-none d-md-flex d-xl-none">
                   <li className="position-relative">
@@ -88,17 +93,19 @@ function NavBar() {
                justify-content-xl-between flex-xl-row flex-column gap-4 mb-0 ps-0"
               >
                 <li className="me-3">
-                  <a
-                    className="text-white text_strokeWhite d-inline-block"
-                    href="#"
-                  >
-                    Home
-                  </a>
+                  <Link exact to="/">
+                    <a
+                      className="text-white text_strokeWhite d-inline-block"
+                      href="#"
+                    >
+                      Home
+                    </a>
+                  </Link>
                 </li>
                 <li className="me-3">
                   <a
                     className="text-white text_strokeWhite d-inline-block"
-                    href="#"
+                    href="#Shop"
                   >
                     SHOP
                   </a>
@@ -106,7 +113,7 @@ function NavBar() {
                 <li className="me-3">
                   <a
                     className="text-white text_strokeWhite d-inline-block"
-                    href="#"
+                    href="#About"
                   >
                     ABOUT
                   </a>
@@ -124,7 +131,7 @@ function NavBar() {
                 <li className="me-3">
                   <a
                     className="text-white text_strokeWhite d-inline-block"
-                    href="#"
+                    href="#FAQ"
                   >
                     FAQ
                   </a>
