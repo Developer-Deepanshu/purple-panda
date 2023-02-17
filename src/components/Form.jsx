@@ -70,7 +70,10 @@ function Form() {
                   We usually reply in 24 hours, if there is an urgent need to
                   reach us. please give us a call at the number below
                 </p>
-                <div className="d-flex align-items-center justify-content-between mt-4 pt-3 flex-column flex-md-row">
+                <div
+                  className="d-flex align-items-center justify-content-between mt-4 pt-3
+                 flex-column flex-md-row"
+                >
                   <div className="d-flex align-items-center ">
                     <img src={purplePhone} alt="Phones" />
                     <p className="fw-semibold mb-0 ms-2 fs_md text-white ff_Montserrat">

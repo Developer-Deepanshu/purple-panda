@@ -2,11 +2,23 @@ import React, { useState } from "react";
 import gift from "../assets/img/svg/mdi_gift.svg";
 import logo from "../assets/img/svg/logo.svg";
 import searchBtn from "../assets/img/svg/search_btn.svg";
+import searchBtnCircle from "../assets/img/svg/search_btnCircle.svg";
 import cart_nav from "../assets/img/svg/cart_nav.svg";
 import { Link } from "react-router-dom";
 
 function NavBar() {
   const [open, setclose] = useState(false);
+  if (open) {
+    document.body.classList.add("overflow-hidden");
+    // document
+    //   .getElementById("nav_lineAnimation")
+    //   .classList.add("nav_lineAnimation");
+  } else {
+    document.body.classList.remove("overflow-hidden");
+    // document
+    //   .getElementById("nav_lineAnimation")
+    //   .classList.remove("nav_lineAnimation");
+  }
 
   return (
     <>
@@ -43,14 +55,15 @@ function NavBar() {
                 </a>
               </Link>
               <div className="d-flex align-items-center">
-                <ul className="d-flex align-items-center gap-4 ps-0 mb-0 d-none d-md-flex d-xl-none">
-                  <li className="position-relative">
+                <ul className="d-flex align-items-center gap-4 ps-0 mb-0">
+                  <li className="position-relative d-xl-none">
+                    <img className="d-sm-none" src={searchBtnCircle} alt="" />
                     <input
-                      className=" input_nav ps-2 pe_30 py-1 text-white placeholderColor"
+                      className=" input_nav ps-2 pe_30 py-1 text-white placeholderColor d-none d-sm-block"
                       type="text"
                       placeholder="Search here.."
                     />
-                    <a href="" className="d-inline-block">
+                    <a href="" className="d-inline-block d-none d-sm-block">
                       <img
                         className="position-absolute search_btn_width position_search_btn bg_grayGrident"
                         src={searchBtn}
@@ -58,7 +71,7 @@ function NavBar() {
                       />
                     </a>
                   </li>
-                  <li>
+                  <li className="d-xl-none">
                     <a href="" className="d-inline-block w-100">
                       <img
                         className="d-inline-block w-100"
@@ -67,7 +80,7 @@ function NavBar() {
                       />
                     </a>
                   </li>
-                  <li>
+                  <li className="d-none d-md-flex d-xl-none">
                     <a
                       href=""
                       className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn fw-bold fs_lg ff_Montserrat"
@@ -79,7 +92,8 @@ function NavBar() {
                 <button
                   onClick={() => setclose(!open)}
                   className=" d-flex flex-column d-xl-none bg-transparent border-0 position-relative
-                 z_index_100 nav_btn_lines ms-3"
+                 z_index_100 nav_btn_lines ms-3 nav_lineAnimation"
+                  id="nav_btn_animation"
                 >
                   <span className="line"></span>
                   <span className="my-2 line"></span>
@@ -87,15 +101,15 @@ function NavBar() {
                 </button>
               </div>
             </div>
-            <div className={open ? "ms-0 nav_open " : "nav_open ms_n100"}>
+            <div className={open ? "ms-0 nav_open" : "nav_open ms_n100"}>
               <ul
-                className="d-flex align-items-center h-100 justify-content-center
+                className="d-flex align-items-center min_vh_max_xl justify-content-center
                justify-content-xl-between flex-xl-row flex-column gap-4 mb-0 ps-0"
               >
                 <li className="me-3">
                   <Link exact to="/">
                     <a
-                      className="text-white text_strokeWhite d-inline-block"
+                      className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                       href="#"
                     >
                       Home
@@ -104,7 +118,7 @@ function NavBar() {
                 </li>
                 <li className="me-3">
                   <a
-                    className="text-white text_strokeWhite d-inline-block"
+                    className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                     href="#Shop"
                   >
                     SHOP
@@ -112,7 +126,7 @@ function NavBar() {
                 </li>
                 <li className="me-3">
                   <a
-                    className="text-white text_strokeWhite d-inline-block"
+                    className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                     href="#About"
                   >
                     ABOUT
@@ -121,7 +135,7 @@ function NavBar() {
                 <li className="me-3">
                   <Link exact to="/Contect">
                     <a
-                      className="text-white text_strokeWhite d-inline-block"
+                      className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                       href="#"
                     >
                       CONTACT
@@ -130,13 +144,13 @@ function NavBar() {
                 </li>
                 <li className="me-3">
                   <a
-                    className="text-white text_strokeWhite d-inline-block"
+                    className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                     href="#FAQ"
                   >
                     FAQ
                   </a>
                 </li>
-                <li className="position-relative d-md-none d-xl-block">
+                <li className="position-relative d-none d-xl-block">
                   <input
                     className=" input_nav ps-2 pe_30 pt-1 pb-2 text-white placeholderColor"
                     type="text"
@@ -151,7 +165,7 @@ function NavBar() {
                     />
                   </a>
                 </li>
-                <li className=" d-md-none d-xl-block">
+                <li className=" d-none d-xl-block">
                   <a
                     href=""
                     className="d-inline-block w-100 transform_translateHover tranisition_02"
