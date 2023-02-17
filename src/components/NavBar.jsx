@@ -152,6 +152,7 @@ function NavBar() {
                       alt="cart"
                     />
                   </a>
+                </li>
                 <li className=" d-md-none d-xl-block">
                   <a
                     href=""
