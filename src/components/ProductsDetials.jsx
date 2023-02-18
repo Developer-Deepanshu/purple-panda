@@ -1,12 +1,12 @@
 import React from "react";
-import products from "../assets/img/png/OBJECTS_detials.png";
-import SameDayDelivery from "../assets/img/png/SameDayDelivery.png";
-import Discreetpackaging from "../assets/img/png/Discreetpackaging.png";
-import buds from "../assets/img/png/buds.png";
-import rewards from "../assets/img/png/rewards.png";
-import mailOrders from "../assets/img/png/mailOrders.png";
-import age from "../assets/img/png/age.png";
-import SecureTransactions from "../assets/img/png/SecureTransactions.png";
+import products from "../assets/img/webp/OBJECTS_detials.webp";
+import SameDayDelivery from "../assets/img/webp/SameDayDelivery.webp";
+import Discreetpackaging from "../assets/img/webp/Discreetpackaging.webp";
+import buds from "../assets/img/webp/buds.webp";
+import rewards from "../assets/img/webp/rewards.webp";
+import mailOrders from "../assets/img/webp/mailOrders.webp";
+import age from "../assets/img/webp/age.webp";
+import SecureTransactions from "../assets/img/webp/SecureTransactions.webp";
 
 function ProductsDetials() {
   return (

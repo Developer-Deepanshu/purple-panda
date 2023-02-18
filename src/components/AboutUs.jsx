@@ -1,9 +1,9 @@
 import React from "react";
-import cart from "../assets/img/png/cart_grid.png";
-import mushroom from "../assets/img/png/mushroom_grid.png";
-import bottle from "../assets/img/png/bottle_grid.png";
-import cbd from "../assets/img/png/cbd_grid.png";
-import flower from "../assets/img/png/flower_grid.png";
+import cart from "../assets/img/webp/cart_grid.webp";
+import mushroom from "../assets/img/webp/mushroom_grid.webp";
+import bottle from "../assets/img/webp/bottle_grid.webp";
+import cbd from "../assets/img/webp/cbd_grid.webp";
+import flower from "../assets/img/webp/flower_grid.webp";
 
 function AboutUs() {
   return (

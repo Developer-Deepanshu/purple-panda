@@ -1,7 +1,7 @@
 import React from "react";
-import stoner from "../assets/img/png/stoner.png";
-import stick from "../assets/img/png/stonerSticks.png";
-import atomic from "../assets/img/png/atomic.png";
+import stoner from "../assets/img/webp/stoner.webp";
+import stick from "../assets/img/webp/stonerSticks.webp";
+import atomic from "../assets/img/webp/atomic.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

@@ -1,5 +1,5 @@
 import React from "react";
-import mushroom from "../assets/img/png/mushroomPrice_2.png";
+import mushroom from "../assets/img/webp/mushroomPrice_2.webp";
 
 function Price() {
   return (

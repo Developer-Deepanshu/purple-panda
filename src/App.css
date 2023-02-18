@@ -241,7 +241,7 @@ textarea:focus {
 
 /* ============ hero */
 .hero_bg {
-  background-image: url("./assets/img/png/hero_bg.png");
+  background-image: url("./assets/img/webp/hero_bg.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -304,7 +304,7 @@ textarea:focus {
 
 /* =====================aboutus */
 .aboutUsBG {
-  background-image: url('./assets/img/png/about_us_bg.png');
+  background-image: url('./assets/img/webp/about_us_bg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -375,7 +375,7 @@ textarea:focus {
 
 /* ============================ ourRangeBG */
 .ourRangeBG {
-  background-image: url('./assets/img/png/ourRange.png');
+  background-image: url('./assets/img/webp/ourRange.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -419,7 +419,7 @@ textarea:focus {
 
 /* ==============canadaMail */
 .bg_canadaMail {
-  background-image: url('./assets/img/png/canadaMailOrder.png');
+  background-image: url('./assets/img/webp/canadaMailOrder.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -452,7 +452,7 @@ textarea:focus {
 
 /* spaceship */
 .starBg {
-  background-image: url('./assets/img/png/spaceShip.png');
+  background-image: url('./assets/img/webp/spaceShip.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -520,7 +520,7 @@ textarea:focus {
 
 /* OurClassifications */
 .OurClassifications_bg {
-  background-image: url('./assets/img/png/OurClassifications_bg.png');
+  background-image: url('./assets/img/webp/OurClassifications_bg.webp');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -539,7 +539,7 @@ textarea:focus {
 
 /* MostPopularItems */
 .MostPopularItems_bg {
-  background-image: url('./assets/img/png/mostPopularItems.png');
+  background-image: url('./assets/img/webp/mostPopularItems.webp');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -573,7 +573,7 @@ textarea:focus {
 
 /* =========LatestBlogsAndNews */
 .LatestBlogsAndNews_bg {
-  background-image: url('./assets/img/png/LatestBlogsAndNews_bg.png');
+  background-image: url('./assets/img/webp/LatestBlogsAndNews_bg.webp');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -586,7 +586,7 @@ textarea:focus {
 
 /* footer */
 .footer_bg {
-  background-image: url('./assets/img/png/footer.png');
+  background-image: url('./assets/img/webp/footer.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -627,7 +627,7 @@ textarea:focus {
 
 /* ================== contact */
 .Contact_bg {
-  background-image: url('./assets/img/png/contect_bg.png');
+  background-image: url('./assets/img/webp/contect_bg.webp');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

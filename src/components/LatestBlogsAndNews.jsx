@@ -1,7 +1,7 @@
 import React from "react";
-import stonerPatch from "../assets/img/png/stonerPatch.png";
-import raw from "../assets/img/png/raw.png";
-import egestas from "../assets/img/png/egestas.png";
+import stonerPatch from "../assets/img/webp/stonerPatch.webp";
+import raw from "../assets/img/webp/raw.webp";
+import egestas from "../assets/img/webp/egestas.webp";
 
 function LatestBlogsAndNews() {
   return (

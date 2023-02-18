@@ -1,7 +1,7 @@
 import React from "react";
-import imgTask from "../assets/img/svg/task_CanadaMail.svg";
-import mobilePay from "../assets/img/svg/mobilePay_canadaMail.svg";
-import cart from "../assets/img/svg/cart_canadaMail.svg";
+import imgTask from "../assets/img/webp/task_CanadaMail.webp";
+import mobilePay from "../assets/img/webp/mobilePay_canadaMail.webp";
+import cart from "../assets/img/webp/cart_canadaMail.webp";
 
 function CanadaMailOrder() {
   return (

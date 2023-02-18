@@ -1,11 +1,11 @@
 import React from "react";
-import mushrooms from "../assets/img/png/mushrooms.png";
-import bulk from "../assets/img/png/bulk.png";
-import Cannabis from "../assets/img/png/cannabis.png";
-import Edibles from "../assets/img/png/ebibles.png";
-import CBD from "../assets/img/png/cbd.png";
-import Vapes from "../assets/img/png/vapes.png";
-import Extracts from "../assets/img/png/extracts.png";
+import mushrooms from "../assets/img/webp/mushrooms.webp";
+import bulk from "../assets/img/webp/bulk.webp";
+import Cannabis from "../assets/img/webp/cannabis.webp";
+import Edibles from "../assets/img/webp/ebibles.webp";
+import CBD from "../assets/img/webp/cbd.webp";
+import Vapes from "../assets/img/webp/vapes.webp";
+import Extracts from "../assets/img/webp/extracts.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

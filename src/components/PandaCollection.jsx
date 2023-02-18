@@ -1,7 +1,7 @@
 import React from "react";
-import panda1 from "../assets/img/png/panda_1.png";
-import panda2 from "../assets/img/png/panda_2.png";
-import panda3 from "../assets/img/png/panda_3.png";
+import panda1 from "../assets/img/webp/panda_1.webp";
+import panda2 from "../assets/img/webp/panda_2.webp";
+import panda3 from "../assets/img/webp/panda_3.webp";
 
 function PandaCollection() {
   return (

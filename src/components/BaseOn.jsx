@@ -1,6 +1,6 @@
 import React from "react";
-import leftLeave from "../assets/img/png/baseOnLeft.png";
-import rightLeave from "../assets/img/png/baseOnRight.png";
+import leftLeave from "../assets/img/webp/baseOnLeft.webp";
+import rightLeave from "../assets/img/webp/baseOnRight.webp";
 
 function BaseOn() {
   return (

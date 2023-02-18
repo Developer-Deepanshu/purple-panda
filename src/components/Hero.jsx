@@ -1,5 +1,5 @@
 import React from "react";
-import panda_hero from "../assets/img/png/panda_hero.png";
+import panda_hero from "../assets/img/webp/panda_hero.webp";
 import rectangle from "../assets/img/svg/panda_rectangle.svg";
 import pandaGif from "../assets/img/gif/panda_gif.gif";
 import upArrow from "../assets/img/png/up-arrow.png";

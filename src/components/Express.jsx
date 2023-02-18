@@ -1,5 +1,5 @@
 import React from "react";
-import expressImg from "../assets/img/png/expressCannabisCrop.png";
+import expressImg from "../assets/img/webp/expressCannabisCrop.webp";
 
 function Express() {
   return (

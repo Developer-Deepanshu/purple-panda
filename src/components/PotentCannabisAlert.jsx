@@ -1,7 +1,7 @@
 import React from "react";
-import spaceShip from "../assets/img/png/spaceShipPanda.png";
+import spaceShip from "../assets/img/webp/spaceShipPanda.webp";
 import gif_countDown from "../assets/img/gif/conuntdown.gif";
-import space_cloude from "../assets/img/svg/space_cloud.svg";
+import space_cloude from "../assets/img/webp/space_cloud.webp";
 
 function PotentCannabisAlert() {
   return (
