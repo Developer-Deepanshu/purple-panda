@@ -10,7 +10,7 @@ import Extracts from "../assets/img/png/extracts.png";
 function Products() {
   return (
     <>
-      <section>
+      <section className="mt-5">
         <div className="container mt-2 pb-4">
           <div className="row justify-content-between">
             <div className="col">

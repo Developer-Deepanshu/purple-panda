@@ -10,14 +10,8 @@ function NavBar() {
   const [open, setclose] = useState(false);
   if (open) {
     document.body.classList.add("overflow-hidden");
-    // document
-    //   .getElementById("nav_lineAnimation")
-    //   .classList.add("nav_lineAnimation");
   } else {
     document.body.classList.remove("overflow-hidden");
-    // document
-    //   .getElementById("nav_lineAnimation")
-    //   .classList.remove("nav_lineAnimation");
   }
 
   return (
