@@ -29,7 +29,7 @@ function MostPopularItems() {
                   <a
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
-                     fw-bold fs_lg ff_Montserrat"
+                     fw-bold hoverBtn fs_lg ff_Montserrat"
                   >
                     ADD TO CART
                   </a>
@@ -47,7 +47,7 @@ function MostPopularItems() {
                   <a
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
-                     fw-bold fs_lg ff_Montserrat"
+                     fw-bold hoverBtn fs_lg ff_Montserrat"
                   >
                     ADD TO CART
                   </a>
@@ -65,7 +65,7 @@ function MostPopularItems() {
                   <a
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
-                     fw-bold fs_lg ff_Montserrat"
+                     fw-bold hoverBtn fs_lg ff_Montserrat"
                   >
                     ADD TO CART
                   </a>
@@ -83,7 +83,7 @@ function MostPopularItems() {
                   <a
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
-                     fw-bold fs_lg ff_Montserrat"
+                     fw-bold hoverBtn fs_lg ff_Montserrat"
                   >
                     ADD TO CART
                   </a>

@@ -28,7 +28,7 @@ function Price() {
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40
                      p_nav_signIn fw-bold
-                 fs_lg ff_Montserrat mt-4"
+                 fs_lg ff_Montserrat mt-4 hoverBtn"
                   >
                     GIVE PURPLE PANDA A GO
                   </a>

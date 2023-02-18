@@ -124,7 +124,7 @@ function OurClassifications() {
                     <a
                       href=""
                       className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn
-                     fw-bold fs_lg ff_Montserrat mt-5"
+                     fw-bold fs_lg ff_Montserrat mt-5 hoverBtn"
                     >
                       TRY PURPLE PANDA TODAY
                     </a>

@@ -51,7 +51,7 @@ function PotentCannabisAlert() {
             <a
               href=""
               className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn
-                     fw-bold fs_lg ff_Montserrat d-inline-block position -absolute spacecannabis _position "
+                     fw-bold fs_lg ff_Montserrat d-inline-block hoverBtn"
             >
               Take me to space cannabis
             </a>

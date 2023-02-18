@@ -77,7 +77,8 @@ function NavBar() {
                   <li className="d-none d-md-flex d-xl-none">
                     <a
                       href=""
-                      className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn fw-bold fs_lg ff_Montserrat"
+                      className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn
+                       fw-bold fs_lg ff_Montserrat hoverBtn"
                     >
                       SIGN IN
                     </a>
@@ -175,7 +176,7 @@ function NavBar() {
                   <a
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn
-                     fw-bold fs_lg ff_Montserrat"
+                     fw-bold fs_lg ff_Montserrat hoverBtn"
                   >
                     SIGN IN
                   </a>

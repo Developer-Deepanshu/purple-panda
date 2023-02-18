@@ -28,7 +28,7 @@ function Hero() {
        position-relative"
       >
         <button
-          className="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle d-none "
+          className="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle hoverBtn d-none "
           onClick={scrollToTop}
           id="back-to-up"
         >
@@ -56,7 +56,7 @@ function Hero() {
                 <a
                   href=""
                   className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn
-                   fw-bold fs_lg ff_Montserrat mt-3"
+                   fw-bold fs_lg ff_Montserrat mt-3 hoverBtn"
                 >
                   SIGN IN
                 </a>

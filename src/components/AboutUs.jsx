@@ -37,7 +37,7 @@ function AboutUs() {
                   <a
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn
-                 fw-bold fs_lg ff_Montserrat mt-4"
+                 fw-bold fs_lg ff_Montserrat mt-4 hoverBtn"
                   >
                     READ MORE
                   </a>
