@@ -2,8 +2,50 @@ import React from "react";
 import stoner from "../assets/img/png/stoner.png";
 import stick from "../assets/img/png/stonerSticks.png";
 import atomic from "../assets/img/png/atomic.png";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function MostPopularItems() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    autoplay: true,
+    arrows: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       <section className="py-5" id="Shop">
@@ -17,78 +59,80 @@ function MostPopularItems() {
               netus natoque urna vivamus faucibus. Sollicitudin et nisl.
             </p>
             <div className="row pt-5">
-              <div className=" col-11 col-sm-6 col-md-5 col-xl-3 mx-auto">
-                <div className="popularItems_bg p-3">
-                  <img className="w-100" src={stoner} alt="stoner Patch" />
-                  <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
-                    Stoner Patch(500mg)
-                  </p>
-                  <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
-                    $20.00
-                  </p>
-                  <a
-                    href=""
-                    className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
+              <Slider {...settings}>
+                <div className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto">
+                  <div className="popularItems_bg p-3">
+                    <img className="w-100" src={stoner} alt="stoner Patch" />
+                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
+                      Stoner Patch(500mg)
+                    </p>
+                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
+                      $20.00
+                    </p>
+                    <a
+                      href=""
+                      className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
                      fw-bold hoverBtn fs_lg ff_Montserrat"
-                  >
-                    ADD TO CART
-                  </a>
+                    >
+                      ADD TO CART
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div className=" col-11 col-sm-6 col-md-5 col-xl-3 mt-4 mt-sm-0 mx-auto">
-                <div className="popularItems_bg p-3">
-                  <img className="w-100" src={atomic} alt="stoner atomic" />
-                  <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
-                    Stoner Patch(500mg)
-                  </p>
-                  <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
-                    $20.00
-                  </p>
-                  <a
-                    href=""
-                    className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
+                <div className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto">
+                  <div className="popularItems_bg p-3">
+                    <img className="w-100" src={atomic} alt="stoner atomic" />
+                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
+                      Stoner Patch(500mg)
+                    </p>
+                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
+                      $20.00
+                    </p>
+                    <a
+                      href=""
+                      className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
                      fw-bold hoverBtn fs_lg ff_Montserrat"
-                  >
-                    ADD TO CART
-                  </a>
+                    >
+                      ADD TO CART
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div className=" col-11 col-sm-6 col-md-5 mt-4 mt-xl-0 col-xl-3 mx-auto">
-                <div className="popularItems_bg p-3">
-                  <img className="w-100" src={stick} alt="stoner stick" />
-                  <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
-                    Stoner Patch(500mg)
-                  </p>
-                  <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
-                    $20.00
-                  </p>
-                  <a
-                    href=""
-                    className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
+                <div className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto">
+                  <div className="popularItems_bg p-3">
+                    <img className="w-100" src={stick} alt="stoner stick" />
+                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
+                      Stoner Patch(500mg)
+                    </p>
+                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
+                      $20.00
+                    </p>
+                    <a
+                      href=""
+                      className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
                      fw-bold hoverBtn fs_lg ff_Montserrat"
-                  >
-                    ADD TO CART
-                  </a>
+                    >
+                      ADD TO CART
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div className=" col-11 col-sm-6 col-md-5 mt-4 mt-xl-0 col-xl-3 mx-auto">
-                <div className="popularItems_bg p-3">
-                  <img className="w-100" src={stick} alt="stoner stick" />
-                  <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
-                    Stoner Patch(500mg)
-                  </p>
-                  <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
-                    $20.00
-                  </p>
-                  <a
-                    href=""
-                    className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
+                <div className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto">
+                  <div className="popularItems_bg p-3">
+                    <img className="w-100" src={stick} alt="stoner stick" />
+                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
+                      Stoner Patch(500mg)
+                    </p>
+                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
+                      $20.00
+                    </p>
+                    <a
+                      href=""
+                      className="d-inline-block text-white bg_purpleGrident border_radius40 p_addTOCart
                      fw-bold hoverBtn fs_lg ff_Montserrat"
-                  >
-                    ADD TO CART
-                  </a>
+                    >
+                      ADD TO CART
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </Slider>
             </div>
           </div>
         </div>
