@@ -1,8 +1,7 @@
 import React from "react";
 import panda_hero from "../assets/img/webp/panda_hero.webp";
-import rectangle from "../assets/img/svg/panda_rectangle.svg";
 import pandaGif from "../assets/img/gif/panda_gif.gif";
-import upArrow from "../assets/img/png/up-arrow.png";
+import upArrow from "../assets/img/webp/up-arrow.webp";
 
 function Hero() {
   window.onscroll = () => {
@@ -34,11 +33,6 @@ function Hero() {
         >
           <img className="w-100" src={upArrow} alt="back to top" />
         </button>
-        {/* <img
-          className="position-absolute bottom-0 end_n30 h_700 z_index_2"
-          src={rectangle}
-          alt="blure"
-        /> */}
         <span className="position-absolute heroPandaShadow positon_shadow"></span>
         <div className="container pt-5">
           <div className="row align-items-center justify-content-between flex-column flex-xl-row">

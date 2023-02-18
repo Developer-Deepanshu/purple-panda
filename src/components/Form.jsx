@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import expressImg from "../assets/img/png/expressCannabisCrop.png";
-import purplePhone from "../assets/img/svg/purplePhone.svg";
-import purpleMail from "../assets/img/svg/purpleMail.svg";
+import expressImg from "../assets/img/webp/expressCannabisCrop.webp";
+import purplePhone from "../assets/img/webp/purplePhone.webp";
+import purpleMail from "../assets/img/webp/purpleMail.webp";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

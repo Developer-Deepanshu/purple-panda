@@ -1,9 +1,9 @@
 import React from "react";
-import medical from "../assets/img/png/cannabis_medical.png";
-import assorted from "../assets/img/png/cannabis_assorted.png";
-import blackGold from "../assets/img/png/cannabis_blackGold.png";
-import madicalSticks from "../assets/img/png/cannabis_sticks.png";
-import flower from "../assets/img/png/cannabis_flower.png";
+import medical from "../assets/img/webp/cannabis_medical.webp";
+import assorted from "../assets/img/webp/cannabis_assorted.webp";
+import blackGold from "../assets/img/webp/cannabis_blackGold.webp";
+import madicalSticks from "../assets/img/webp/cannabis_sticks.webp";
+import flower from "../assets/img/webp/cannabis_flower.webp";
 
 function Cannabis() {
   return (

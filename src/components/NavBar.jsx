@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import gift from "../assets/img/svg/mdi_gift.svg";
-import logo from "../assets/img/svg/logo.svg";
-import searchBtn from "../assets/img/svg/search_btn.svg";
-import searchBtnCircle from "../assets/img/svg/search_btnCircle.svg";
-import cart_nav from "../assets/img/svg/cart_nav.svg";
+import gift from "../assets/img/webp/mdi_gift.webp";
+import logo from "../assets/img/webp/logo.webp";
+import searchBtn from "../assets/img/webp/search_btn.webp";
+import searchBtnCircle from "../assets/img/webp/search_btnCircle.webp";
+import cart_nav from "../assets/img/webp/cart_nav.webp";
 import { Link } from "react-router-dom";
 
 function NavBar() {

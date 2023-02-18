@@ -1,5 +1,5 @@
 import React from "react";
-import star from "../assets/img/svg/purrpleStart.svg";
+import star from "../assets/img/webp/purrpleStart.webp";
 
 function OurClassifications() {
   return (
