@@ -50,7 +50,7 @@ function MostPopularItems() {
     <>
       <section className="py-5" id="Shop">
         <div className="MostPopularItems_bg">
-          <div className="container">
+          <div className="container pb-4">
             <h2 className="fw-bold text-center ff_Philosopher text-white fs_xl4 pt-5">
               Most <span className="text_purpleGrident">Popular</span> Items
             </h2>

@@ -141,7 +141,7 @@ function Form() {
                   />
                   <button
                     className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn
-                     fw-bold fs_lg ff_Montserrat mt-3"
+                     fw-bold fs_lg ff_Montserrat mt-3 hoverBtn"
                     onClick={submitForm}
                   >
                     SUBMIT

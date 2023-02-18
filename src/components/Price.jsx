@@ -35,7 +35,8 @@ function Price() {
                 </div>
               </div>
             </div>
-            <div className="col-7 col-lg-4 ms-md-5 pe-xl-4">
+            <div className="col-7 col-lg-4 ms-md-5 pe-xl-4 position-relative">
+              <span className="position-absolute bgMushroomShadow"></span>
               <img
                 className="w-100 transform_scale mushroomImg"
                 src={mushroom}

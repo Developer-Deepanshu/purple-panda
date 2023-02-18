@@ -18,7 +18,10 @@ function OurClassifications() {
                     We’re proud of all our weed, but we still classify it based
                     on quality and price, with our levels classed at:
                   </p>
-                  <div className="d-flex align-items-center justify-content-center justify-content-lg-start">
+                  <div
+                    className="d-flex align-items-center justify-content-center
+                   justify-content-lg-start"
+                  >
                     <img
                       className="d-inline-block w_20"
                       src={star}

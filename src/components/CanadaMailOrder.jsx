@@ -33,7 +33,7 @@ function CanadaMailOrder() {
                 </p>
               </div>
             </div>
-            <div className="col-sm-6 col-lg-4 mt-5 pt-5 mt-sm-0 pt-sm-0">
+            <div className="col-sm-6 col-lg-4 mt-4 pt-5 mt-sm-0 pt-sm-0">
               <div className="bgCardsCanadaMail px-4 pt-5 cardHover position-relative">
                 <div
                   className="bg_blue100 circles_canadaMail fs_xl3 ff_Montserrat fw-semibold d-flex
@@ -48,7 +48,7 @@ function CanadaMailOrder() {
                 </p>
               </div>
             </div>
-            <div className="col-sm-6 col-lg-4 mt-5 pt-5 mt-lg-0 pt-lg-0">
+            <div className="col-sm-6 col-lg-4 mt-4 pt-5 mt-lg-0 pt-lg-0">
               <div className="bgCardsCanadaMail px-4 pt-5 cardHover position-relative">
                 <div
                   className="bg_blue100 circles_canadaMail fs_xl3 ff_Montserrat fw-semibold d-flex

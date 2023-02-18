@@ -59,8 +59,8 @@ function Products() {
   };
   return (
     <>
-      <section className="mt-5">
-        <div className="container mt-2 pb-4">
+      <section className="pt-5">
+        <div className="container mt-3 pb-4">
           <div className="row justify-content-between">
             <Slider {...settings}>
               <div className="col">
