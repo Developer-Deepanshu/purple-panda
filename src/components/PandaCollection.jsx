@@ -6,7 +6,7 @@ import panda3 from "../assets/img/png/panda_3.png";
 function PandaCollection() {
   return (
     <>
-      <section className="pt-5 mt-5">
+      <section className="pt-md-5 mt-md-5">
         <div className="MostPopularItems_bg py-5">
           <div className="container">
             <div className="row justify-content-center">

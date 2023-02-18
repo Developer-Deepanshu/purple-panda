@@ -63,13 +63,12 @@ function Hero() {
               </div>
             </div>
             <div className="col-sm-8 col-xl-5 position-relative z_index_n1">
+              <img className="w-100" src={panda_hero} alt="panda" />
               <img
-                className="border_radiusGif h_w_gif position-absolute position_gif position_gif_sm
-                 position_gif_md position_gif_lg position_gif_xl position_gif_xxl"
+                className="border_radiusGif h_w_gif position-absolute position_gif"
                 src={pandaGif}
                 alt="gif"
               />
-              <img className="w-100" src={panda_hero} alt="panda" />
             </div>
           </div>
         </div>

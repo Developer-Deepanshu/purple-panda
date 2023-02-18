@@ -6,9 +6,9 @@ import cart from "../assets/img/svg/cart_canadaMail.svg";
 function CanadaMailOrder() {
   return (
     <>
-      <section className="bg_canadaMail">
-        <div className="container pt-5">
-          <h2 className="fw-bold ff_Philosopher fs_xl4 text-white text-center pt-5">
+      <section className="bg_canadaMail my-5">
+        <div className="container pt-md-5 pt-xl-0">
+          <h2 className="fw-bold ff_Philosopher fs_xl4 text-white text-center pt-5 pt-xl-4">
             Canada Wide <span className="text_purpleGrident">Mail Orders</span>
           </h2>
           <p className="text-white fw-normal ff_Montserrat fs_md text-center">

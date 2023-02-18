@@ -20,7 +20,7 @@ function NavBar() {
         <div className="container-fluid p-0">
           <div
             className="d-flex align-items-center justify-content-center bg_purple py-2 flex-column
-           flex-md-row"
+           flex-md-row ps-1 px-xl-0"
           >
             <div className="d-flex align-items-md-center">
               <img className="gift_size d-inline-block" src={gift} alt="gift" />
@@ -85,9 +85,9 @@ function NavBar() {
                   </li>
                 </ul>
                 <button
-                  onClick={() => setclose(!open)}
+                  onClick={() => setclose(true)}
                   className=" d-flex flex-column d-xl-none bg-transparent border-0 position-relative
-                 z_index_100 nav_btn_lines ms-3 nav_lineAnimation"
+                 z_index _100 nav_btn_lines ms-3 nav_li neAnimation"
                   id="nav_btn_animation"
                 >
                   <span className="line"></span>
@@ -106,6 +106,7 @@ function NavBar() {
                     <a
                       className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                       href="#"
+                      onClick={() => setclose(false)}
                     >
                       Home
                     </a>
@@ -115,6 +116,7 @@ function NavBar() {
                   <a
                     className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                     href="#Shop"
+                    onClick={() => setclose(false)}
                   >
                     SHOP
                   </a>
@@ -123,6 +125,7 @@ function NavBar() {
                   <a
                     className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                     href="#About"
+                    onClick={() => setclose(false)}
                   >
                     ABOUT
                   </a>
@@ -132,6 +135,7 @@ function NavBar() {
                     <a
                       className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                       href="#"
+                      onClick={() => setclose(false)}
                     >
                       CONTACT
                     </a>
@@ -141,6 +145,7 @@ function NavBar() {
                   <a
                     className="text-white text_strokeWhite d-inline-block ff_Montserrat"
                     href="#FAQ"
+                    onClick={() => setclose(false)}
                   >
                     FAQ
                   </a>
@@ -151,7 +156,11 @@ function NavBar() {
                     type="text"
                     placeholder="Search here.."
                   />
-                  <a href="" className="d-inline-block">
+                  <a
+                    href=""
+                    className="d-inline-block"
+                    onClick={() => setclose(false)}
+                  >
                     <img
                       className="position-absolute search_btn_width position_search_btn
                        bg_grayGrident"
@@ -164,6 +173,7 @@ function NavBar() {
                   <a
                     href=""
                     className="d-inline-block w-100 transform_translateHover tranisition_02"
+                    onClick={() => setclose(false)}
                   >
                     <img
                       className="d-inline-block w-100"
@@ -177,11 +187,20 @@ function NavBar() {
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn
                      fw-bold fs_lg ff_Montserrat hoverBtn"
+                    onClick={() => setclose(false)}
                   >
                     SIGN IN
                   </a>
                 </li>
               </ul>
+              <div
+                className="d-flex align-items-center flex-column nav_lineAnimation position-absolute position_crossNav d-xl-none"
+                onClick={() => setclose(false)}
+              >
+                <span className="line"></span>
+                <span className="my-2 line"></span>
+                <span className="line"></span>
+              </div>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ function AboutUs() {
           <div className="container py-5">
             <div className="row align-items-center flex-column-reverse flex-xl-row">
               <div className="col-xl-6 mt-4 mt-xl-5">
-                <div className="bg_filter p-5 border_left">
+                <div className="bg_filter p-3 p-sm-5 border_left position-relative">
                   <h2 className="fw-normal text-white ff_Philosopher fs_xl4">
                     About
                     <span className="text_purpleGrident">Us</span>{" "}

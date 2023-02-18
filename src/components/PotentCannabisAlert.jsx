@@ -6,8 +6,8 @@ import space_cloude from "../assets/img/svg/space_cloud.svg";
 function PotentCannabisAlert() {
   return (
     <>
-      <section className="py-5 overflow-hidden">
-        <div className="container pt-5">
+      <section className="py-md-5 overflow-hidden">
+        <div className="container pt-md-5">
           <h2 className="text-white fs_xl4 text-center ff_Philosopher">
             Potent Cannabis <span className="text_purpleGrident">Alert</span>
           </h2>

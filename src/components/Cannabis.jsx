@@ -25,7 +25,7 @@ function Cannabis() {
               className="row align-items-center flex-column-reverse flex-xl-row
              mt-5"
             >
-              <div className="col-xl-6 mt-4 mt-xl-5">
+              <div className="col-xl-6 mt-xl-5">
                 <div className="bg_filter p-3 p-sm-5 border_left">
                   <h2 className="fw-normal text-white ff_Philosopher fs_xl4 text-center">
                     Strain

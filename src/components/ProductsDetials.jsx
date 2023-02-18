@@ -11,9 +11,9 @@ import SecureTransactions from "../assets/img/png/SecureTransactions.png";
 function ProductsDetials() {
   return (
     <>
-      <section className="py-5" id="FAQ">
-        <div className="container py-5">
-          <div className="row align-items-center justify-content-between flex-column flex-xl-row">
+      <section className="py-4 py-mm-5" id="FAQ">
+        <div className="container pt-md-5 pt-5">
+          <div className="row align-items-center justify-content-between flex-column flex-xl-row pb-md-5">
             <div className=" col-sm-9 col-xl-5">
               <img className="w-100" src={products} alt="products" />
             </div>

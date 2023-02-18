@@ -5,7 +5,7 @@ import rightLeave from "../assets/img/png/baseOnRight.png";
 function BaseOn() {
   return (
     <>
-      <section className="pb-5">
+      <section className="pb-md-5 pt-sm-5 pt-xl-0">
         <div className="container py-5">
           <div className="col-lg-7 mx-auto pb-4">
             <h3 className="fs_xl text-white ff_Montserrat fw-semibold mb-0 text-center">
@@ -18,7 +18,7 @@ function BaseOn() {
               know where to go!
             </p>
           </div>
-          <div className="row pt-4 flex-column flex-xl-row">
+          <div className="row pt-sm-4 flex-column flex-xl-row">
             <div className="mx-auto col-sm-10 col-xl-6 position-relative">
               <img
                 className="position-absolute bottom-0 end-0"

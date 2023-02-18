@@ -4,7 +4,7 @@ import star from "../assets/img/svg/purrpleStart.svg";
 function OurClassifications() {
   return (
     <>
-      <section className="py-5">
+      <section className="py-md-5">
         <div className="OurClassifications_bg">
           <div className="container">
             <div className="row">

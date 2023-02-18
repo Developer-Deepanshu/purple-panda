@@ -18,13 +18,22 @@ function Footer() {
               </p>
             </div>
             <div className="d-flex align-items-center justify-content-center gap-4 mb-3">
-              <a href="" className="fw-semibold ff_Montserrat text-white fs_md">
+              <a
+                href=""
+                className="fw-semibold ff_Montserrat text-white fs_md footerBtn position-relative footerBtn"
+              >
                 SHOP
               </a>
-              <a href="" className="fw-semibold ff_Montserrat text-white fs_md">
+              <a
+                href=""
+                className="fw-semibold ff_Montserrat text-white fs_md footerBtn position-relative footerBtn"
+              >
                 ABOUT
               </a>
-              <a href="" className="fw-semibold ff_Montserrat text-white fs_md">
+              <a
+                href=""
+                className="fw-semibold ff_Montserrat text-white fs_md footerBtn position-relative footerBtn"
+              >
                 CONTACT
               </a>
             </div>

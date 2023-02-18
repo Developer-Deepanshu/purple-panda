@@ -6,7 +6,7 @@ import egestas from "../assets/img/png/egestas.png";
 function LatestBlogsAndNews() {
   return (
     <>
-      <section className="py-5">
+      <section className="py-md-5">
         <div className="LatestBlogsAndNews_bg pb-5">
           <div className="container">
             <h2 className="fw-bold text-center ff_Philosopher text-white fs_xl4 pt-5">

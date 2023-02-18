@@ -4,7 +4,7 @@ import mushroom from "../assets/img/png/mushroomPrice_2.png";
 function Price() {
   return (
     <>
-      <section className="py-5">
+      <section className="py-md-5">
         <div className="container pt-5">
           <div
             className="row align-items-center price_bg justify-content-between outlinePurrple
