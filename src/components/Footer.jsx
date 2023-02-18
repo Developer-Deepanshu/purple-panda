@@ -10,7 +10,7 @@ function Footer() {
             <div className="text-center">
               <img className="w_footerLogo" src={logo} alt="logo" />
             </div>
-            <div className="col-6 mx-auto">
+            <div className="col-md-6 mx-auto">
               <p className="mt-3 text-center ff_Montserrat fw-normal fs_md text-white">
                 Tempor cras et scelerisque bibendum. Sapien proin pharetra
                 iaculis cras massa auctor turpis. Eget massa imperdiet sit

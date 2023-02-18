@@ -58,7 +58,7 @@ function MostPopularItems() {
               Pellentesque tincidunt fermentum mauris dignissim quam arcu. A
               netus natoque urna vivamus faucibus. Sollicitudin et nisl.
             </p>
-            <div className="row pt-5">
+            <div className="row pt-3 pt-md-5">
               <Slider {...settings}>
                 <div className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto">
                   <div className="popularItems_bg p-3">

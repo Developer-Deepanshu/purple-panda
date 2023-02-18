@@ -8,7 +8,7 @@ import flower from "../assets/img/png/cannabis_flower.png";
 function Cannabis() {
   return (
     <>
-      <section className="py-5">
+      <section className="pt-md-5 pb-5">
         <div className="aboutUsBG">
           <div className="container py-5">
             <h2 className="text-white text-center ff_Philosopher fw-bold fs_xl4">
