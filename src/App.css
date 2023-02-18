@@ -435,9 +435,9 @@ textarea:focus {
 .purpleBottleShadow {
   background: #9F00FF;
   filter: blur(121.976px);
-  width: 80%;
-  bottom: 12%;
-  left: 10%;
+  width: 40%;
+  bottom: 20%;
+  left: 30%;
   z-index: 2;
   height: 200px;
   opacity: 0;
