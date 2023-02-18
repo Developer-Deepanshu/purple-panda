@@ -2,6 +2,7 @@ import './App.css';
 import Contect from './components/Contect';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
+
 function App() {
   return (
     <>

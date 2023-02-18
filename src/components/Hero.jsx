@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import panda_hero from "../assets/img/webp/panda_hero.webp";
 import pandaGif from "../assets/img/gif/panda_gif.gif";
 import upArrow from "../assets/img/webp/up-arrow.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Hero() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   window.onscroll = () => {
     toggleTopButton();
   };
@@ -36,7 +43,13 @@ function Hero() {
         <span className="position-absolute heroPandaShadow positon_shadow"></span>
         <div className="container pt-5">
           <div className="row align-items-center justify-content-between flex-column flex-xl-row">
-            <div className="col-xl-6  mt-4 mt-xl-0 position-relative z_index_3">
+            <div
+              className="col-xl-6  mt-4 mt-xl-0 position-relative z_index_3"
+              data-aos="fade-right"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
               <h1 className="text-white fs_xl5 ff_Philosopher fw-semibold text-center text-xl-start">
                 Setting a <span className="text_purpleGrident">‘High’</span>{" "}
                 Standard
@@ -56,7 +69,13 @@ function Hero() {
                 </a>
               </div>
             </div>
-            <div className="col-sm-8 col-xl-5 position-relative z_index_n1">
+            <div
+              className="col-sm-8 col-xl-5 position-relative z_index_n1"
+              data-aos="fade-left"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
               <img className="w-100" src={panda_hero} alt="panda" />
               <img
                 className="border_radiusGif h_w_gif position-absolute position_gif"

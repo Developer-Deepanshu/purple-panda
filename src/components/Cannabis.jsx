@@ -1,20 +1,39 @@
-import React from "react";
+import React, { useEffect } from "react";
 import medical from "../assets/img/webp/cannabis_medical.webp";
 import assorted from "../assets/img/webp/cannabis_assorted.webp";
 import blackGold from "../assets/img/webp/cannabis_blackGold.webp";
 import madicalSticks from "../assets/img/webp/cannabis_sticks.webp";
 import flower from "../assets/img/webp/cannabis_flower.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Cannabis() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className="pt-md-5 pb-5">
         <div className="aboutUsBG">
           <div className="container py-5">
-            <h2 className="text-white text-center ff_Philosopher fw-bold fs_xl4">
+            <h2
+              className="text-white text-center ff_Philosopher fw-bold fs_xl4"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
               Cannabis
             </h2>
-            <p className="text-center ff_Montserrat fs_md text-white fw-normal">
+            <p
+              className="text-center ff_Montserrat fs_md text-white fw-normal"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
               While we stock all sorts of products to make you feel great, we’re
               experts and lovers of cannabis at heart. We offer a wide range of
               buds each with different highs, flavors, and aromas, so you can
@@ -27,7 +46,13 @@ function Cannabis() {
             >
               <div className="col-xl-6 mt-xl-5">
                 <div className="bg_filter p-3 p-sm-5 border_left">
-                  <h2 className="fw-normal text-white ff_Philosopher fs_xl4 text-center">
+                  <h2
+                    className="fw-normal text-white ff_Philosopher fs_xl4 text-center"
+                    data-aos="fade-left"
+                    data-aos-anchor-placement="top"
+                    data-aos-delay="300"
+                    data-aos-offset="200"
+                  >
                     Strain
                     <span className="text_purpleGrident">Families</span>{" "}
                   </h2>

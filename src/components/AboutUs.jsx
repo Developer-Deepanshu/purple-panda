@@ -1,18 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import cart from "../assets/img/webp/cart_grid.webp";
 import mushroom from "../assets/img/webp/mushroom_grid.webp";
 import bottle from "../assets/img/webp/bottle_grid.webp";
 import cbd from "../assets/img/webp/cbd_grid.webp";
 import flower from "../assets/img/webp/flower_grid.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function AboutUs() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className="pb-5" id="About">
         <div className="aboutUsBG">
           <div className="container py-5">
             <div className="row align-items-center flex-column-reverse flex-xl-row">
-              <div className="col-xl-6 mt-4 mt-xl-5">
+              <div
+                className="col-xl-6 mt-4 mt-xl-5"
+                data-aos="fade-right"
+                data-aos-anchor-placement="top"
+                data-aos-delay="400"
+                data-aos-offset="200"
+              >
                 <div className="bg_filter p-3 p-sm-5 border_left position-relative">
                   <h2 className="fw-normal text-white ff_Philosopher fs_xl4">
                     About
@@ -43,7 +56,13 @@ function AboutUs() {
                   </a>
                 </div>
               </div>
-              <div className="col-sm-9 col-xl-6">
+              <div
+                className="col-sm-9 col-xl-6"
+                data-aos="fade-left"
+                data-aos-anchor-placement="top"
+                data-aos-delay="400"
+                data-aos-offset="200"
+              >
                 <div className="d_grid">
                   <div className="grid_iteam1 pt-4">
                     <img className="w-100" src={cart} alt="cart" />
