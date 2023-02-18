@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import stoner from "../assets/img/webp/stoner.webp";
 import stick from "../assets/img/webp/stonerSticks.webp";
 import atomic from "../assets/img/webp/atomic.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function MostPopularItems() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   var settings = {
     dots: true,
     infinite: true,
@@ -51,16 +58,34 @@ function MostPopularItems() {
       <section className="py-5" id="Shop">
         <div className="MostPopularItems_bg">
           <div className="container pb-4">
-            <h2 className="fw-bold text-center ff_Philosopher text-white fs_xl4 pt-5">
+            <h2
+              className="fw-bold text-center ff_Philosopher text-white fs_xl4 pt-5"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
               Most <span className="text_purpleGrident">Popular</span> Items
             </h2>
-            <p className="text-center text-white fw-normal fs_md mb-0">
+            <p
+              className="text-center text-white fw-normal fs_md mb-0"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
               Pellentesque tincidunt fermentum mauris dignissim quam arcu. A
               netus natoque urna vivamus faucibus. Sollicitudin et nisl.
             </p>
             <div className="row pt-3 pt-md-5">
               <Slider {...settings}>
-                <div className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto">
+                <div
+                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto"
+                  data-aos="fade-right"
+                  data-aos-anchor-placement="top"
+                  data-aos-delay="300"
+                  data-aos-offset="200"
+                >
                   <div className="popularItems_bg p-3">
                     <img className="w-100" src={stoner} alt="stoner Patch" />
                     <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
@@ -78,7 +103,13 @@ function MostPopularItems() {
                     </a>
                   </div>
                 </div>
-                <div className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto">
+                <div
+                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto"
+                  data-aos="fade-right"
+                  data-aos-anchor-placement="top"
+                  data-aos-delay="300"
+                  data-aos-offset="200"
+                >
                   <div className="popularItems_bg p-3">
                     <img className="w-100" src={atomic} alt="stoner atomic" />
                     <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
@@ -96,7 +127,13 @@ function MostPopularItems() {
                     </a>
                   </div>
                 </div>
-                <div className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto">
+                <div
+                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto"
+                  data-aos="fade-left"
+                  data-aos-anchor-placement="top"
+                  data-aos-delay="300"
+                  data-aos-offset="200"
+                >
                   <div className="popularItems_bg p-3">
                     <img className="w-100" src={stick} alt="stoner stick" />
                     <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
@@ -114,7 +151,13 @@ function MostPopularItems() {
                     </a>
                   </div>
                 </div>
-                <div className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto">
+                <div
+                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto"
+                  data-aos="fade-left"
+                  data-aos-anchor-placement="top"
+                  data-aos-delay="300"
+                  data-aos-offset="200"
+                >
                   <div className="popularItems_bg p-3">
                     <img className="w-100" src={stick} alt="stoner stick" />
                     <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">

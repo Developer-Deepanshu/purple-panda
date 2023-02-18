@@ -15,10 +15,22 @@ function CanadaMailOrder() {
     <>
       <section className="bg_canadaMail my-5">
         <div className="container pt-md-5 pt-xl-0">
-          <h2 className="fw-bold ff_Philosopher fs_xl4 text-white text-center pt-5 pt-xl-4">
+          <h2
+            className="fw-bold ff_Philosopher fs_xl4 text-white text-center pt-5 pt-xl-4"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top"
+            data-aos-delay="300"
+            data-aos-offset="200"
+          >
             Canada Wide <span className="text_purpleGrident">Mail Orders</span>
           </h2>
-          <p className="text-white fw-normal ff_Montserrat fs_md text-center">
+          <p
+            className="text-white fw-normal ff_Montserrat fs_md text-center"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top"
+            data-aos-delay="300"
+            data-aos-offset="200"
+          >
             Purple Panda offers discreet mail orders to all provinces in Canada,
             we have new list of products everyday to serve your needs whether
             its recreational or medinical use. We ship the next business day

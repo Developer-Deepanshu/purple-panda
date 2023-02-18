@@ -1,17 +1,36 @@
-import React from "react";
+import React, { useEffect } from "react";
 import spaceShip from "../assets/img/webp/spaceShipPanda.webp";
 import gif_countDown from "../assets/img/gif/conuntdown.gif";
 import space_cloude from "../assets/img/webp/space_cloud.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function PotentCannabisAlert() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className="py-md-5 overflow-hidden">
         <div className="container pt-md-5">
-          <h2 className="text-white fs_xl4 text-center ff_Philosopher">
+          <h2
+            className="text-white fs_xl4 text-center ff_Philosopher"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top"
+            data-aos-delay="300"
+            data-aos-offset="200"
+          >
             Potent Cannabis <span className="text_purpleGrident">Alert</span>
           </h2>
-          <p className="text-white fw-normal fs_md ff_Montserrat text-center">
+          <p
+            className="text-white fw-normal fs_md ff_Montserrat text-center"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top"
+            data-aos-delay="300"
+            data-aos-offset="200"
+          >
             click here to try our most potent hand picked craft cannabis
           </p>
         </div>
@@ -43,11 +62,24 @@ function PotentCannabisAlert() {
               alt="countDown"
             />
 
-            <div className="text-center col-12 col-sm-8 col-md-6 col-lg-5 mx-auto position-relative z_index_2">
+            <div
+              className="text-center col-12 col-sm-8 col-md-6 col-lg-5 mx-auto position-relative 
+            z_index_2"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
               <img className="w-100" src={spaceShip} alt="spaceShip" />
             </div>
           </div>
-          <div className="text-center mb_n20 position-relative z_index_2 pb-5">
+          <div
+            className="text-center mb_n20 position-relative z_index_2 pb-5"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top"
+            data-aos-delay="300"
+            data-aos-offset="200"
+          >
             <a
               href=""
               className="d-inline-block text-white bg_purpleGrident border_radius40 p_nav_signIn

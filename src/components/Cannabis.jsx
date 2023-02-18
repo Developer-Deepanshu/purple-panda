@@ -45,14 +45,14 @@ function Cannabis() {
              mt-5"
             >
               <div className="col-xl-6 mt-xl-5">
-                <div className="bg_filter p-3 p-sm-5 border_left">
-                  <h2
-                    className="fw-normal text-white ff_Philosopher fs_xl4 text-center"
-                    data-aos="fade-left"
-                    data-aos-anchor-placement="top"
-                    data-aos-delay="300"
-                    data-aos-offset="200"
-                  >
+                <div
+                  className="bg_filter p-3 p-sm-5 border_left"
+                  data-aos="fade-right"
+                  data-aos-anchor-placement="top"
+                  data-aos-delay="300"
+                  data-aos-offset="200"
+                >
+                  <h2 className="fw-normal text-white ff_Philosopher fs_xl4 text-center">
                     Strain
                     <span className="text_purpleGrident">Families</span>{" "}
                   </h2>
@@ -91,7 +91,13 @@ function Cannabis() {
                 </div>
               </div>
               <div className="col-sm-9 col-xl-6 mb-5 mb-xl-0">
-                <div className="d_grid">
+                <div
+                  className="d_grid"
+                  data-aos="fade-left"
+                  data-aos-anchor-placement="top"
+                  data-aos-delay="300"
+                  data-aos-offset="200"
+                >
                   <div className="grid_iteam1 pt-4">
                     <img className="w-100" src={flower} alt="flower" />
                   </div>

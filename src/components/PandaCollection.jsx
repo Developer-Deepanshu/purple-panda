@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import panda1 from "../assets/img/webp/panda_1.webp";
 import panda2 from "../assets/img/webp/panda_2.webp";
 import panda3 from "../assets/img/webp/panda_3.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function PandaCollection() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className="pt-md-5 mt-md-5">
         <div className="MostPopularItems_bg py-5">
           <div className="container">
             <div className="row justify-content-center">
-              <div className=" col-10 col-sm-6 col-xl-4">
+              <div
+                className=" col-10 col-sm-6 col-xl-4"
+                data-aos="fade-right"
+                data-aos-anchor-placement="top"
+                data-aos-delay="300"
+                data-aos-offset="200"
+              >
                 <div className="outlinePanda">
                   <img className="w-100 imgPanda" src={panda1} alt="panda" />
                   <p className="mt-3 fw-bold fs_xl2 text-white ff_Philosopher text-center">
@@ -19,7 +32,13 @@ function PandaCollection() {
                   </p>
                 </div>
               </div>
-              <div className=" col-10 col-sm-6 col-xl-4">
+              <div
+                className=" col-10 col-sm-6 col-xl-4"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top"
+                data-aos-delay="300"
+                data-aos-offset="200"
+              >
                 <div className="outlinePanda">
                   <img className="w-100 imgPanda" src={panda2} alt="panda" />
                   <p className="mt-3 fw-bold fs_xl2 text-white ff_Philosopher text-center">
@@ -30,7 +49,13 @@ function PandaCollection() {
                   </p>
                 </div>
               </div>
-              <div className=" col-10 col-sm-6 col-xl-4 mt-4 mt-xl-0">
+              <div
+                className=" col-10 col-sm-6 col-xl-4 mt-4 mt-xl-0"
+                data-aos="fade-left"
+                data-aos-anchor-placement="top"
+                data-aos-delay="300"
+                data-aos-offset="200"
+              >
                 <div className="outlinePanda">
                   <img className="w-100 imgPanda" src={panda3} alt="panda" />
                   <p className="mt-3 fw-bold fs_xl2 text-white ff_Philosopher text-center">

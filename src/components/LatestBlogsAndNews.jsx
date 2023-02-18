@@ -1,24 +1,49 @@
-import React from "react";
+import React, { useEffect } from "react";
 import stonerPatch from "../assets/img/webp/stonerPatch.webp";
 import raw from "../assets/img/webp/raw.webp";
 import egestas from "../assets/img/webp/egestas.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function LatestBlogsAndNews() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className="py-md-5">
         <div className="LatestBlogsAndNews_bg pb-5">
           <div className="container">
-            <h2 className="fw-bold text-center ff_Philosopher text-white fs_xl4 pt-5">
+            <h2
+              className="fw-bold text-center ff_Philosopher text-white fs_xl4 pt-5"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
               Latest <span className="text_purpleGrident">Blogs</span> And{" "}
               <span className="text_purpleGrident">News</span>
             </h2>
-            <p className="text-center text-white fw-normal fs_md mb-0">
+            <p
+              className="text-center text-white fw-normal fs_md mb-0"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
               Pellentesque tincidunt fermentum mauris dignissim quam arcu. A
               netus natoque urna vivamus faucibus. Sollicitudin et nisl.
             </p>
             <div className="row pt-5">
-              <div className=" col-10 col-sm-6 col-xl-4 mx-auto ">
+              <div
+                className=" col-10 col-sm-6 col-xl-4 mx-auto "
+                data-aos="fade-right"
+                data-aos-anchor-placement="top"
+                data-aos-delay="300"
+                data-aos-offset="200"
+              >
                 <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between">
                   <div>
                     <img
@@ -46,7 +71,13 @@ function LatestBlogsAndNews() {
                   </a>
                 </div>
               </div>
-              <div className=" col-10 col-sm-6 col-xl-4 mx-auto mt-4 mt-sm-0">
+              <div
+                className=" col-10 col-sm-6 col-xl-4 mx-auto mt-4 mt-sm-0"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top"
+                data-aos-delay="300"
+                data-aos-offset="200"
+              >
                 <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between">
                   <div>
                     <img className="w-100" src={raw} alt="raw " />
@@ -70,7 +101,13 @@ function LatestBlogsAndNews() {
                   </a>
                 </div>
               </div>
-              <div className=" col-10 col-sm-6 col-xl-4 mx-auto  mt-4 mt-xl-0">
+              <div
+                className=" col-10 col-sm-6 col-xl-4 mx-auto  mt-4 mt-xl-0"
+                data-aos="fade-left"
+                data-aos-anchor-placement="top"
+                data-aos-delay="300"
+                data-aos-offset="200"
+              >
                 <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between">
                   <div>
                     <img className="w-100" src={egestas} alt="egestas" />
