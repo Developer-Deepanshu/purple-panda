@@ -30,7 +30,6 @@
 }
 
 :root {
-  /* ==================== color  */
   --color-blue: #07031D;
   --color-blue-100: #15082F;
   ;
@@ -38,7 +37,6 @@
   --color-purpleGrident: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%);
   --color-gray-grident: linear-gradient(0deg, #212121, #212121), linear-gradient(0deg, #565656, #565656);
   --color-gray: #565656;
-  /* =================== fs */
   --text-xsm: 12px;
   --text-sm: 14px;
   --text-md: 16px;
@@ -48,16 +46,13 @@
   --text-xl3: 35px;
   --text-xl4: 48px;
   --text-xl5: 80px;
-  /* ========================= fw */
   --fw-bolder: 800;
-  /* loading */
   --hue: 223;
   --bg: hsl(var(--hue), 10%, 90%);
   --fg: hsl(var(--hue), 10%, 10%);
   --trans-dur: 0.3s;
 }
 
-/* ========================== fw */
 .fw_bolder {
   font-weight: var(--fw-bolder);
 }
@@ -94,7 +89,6 @@
   background-color: var(--color-gray-grident);
 }
 
-/* ================================== fs */
 .fs_xsm {
   font-size: var(--text-xsm);
 }
@@ -131,7 +125,6 @@
   font-size: var(--text-xl5);
 }
 
-/* ==================================== nav =============================== */
 .h_8 {
   height: 8%;
 }
@@ -162,8 +155,6 @@
 .tranisition_02 {
   transition: 0.2s ease-in-out all;
 }
-
-/* ------------------------------------------------------------- */
 
 .nav_open {
   height: 100%;
@@ -238,7 +229,6 @@ textarea:focus {
   padding-bottom: 12px;
 }
 
-/* ============ hero */
 .hero_bg {
   background-image: url("./assets/img/webp/hero_bg.webp");
   background-position: top;
@@ -291,7 +281,6 @@ textarea:focus {
   box-shadow: 0px 2px 15px #b143f6;
 }
 
-/* ============products */
 .w_164 {
   width: 164px;
 }
@@ -301,7 +290,6 @@ textarea:focus {
   border-radius: 50%;
 }
 
-/* =====================aboutus */
 .aboutUsBG {
   background-image: url('./assets/img/webp/about_us_bg.webp');
   background-position: center;
@@ -362,7 +350,6 @@ textarea:focus {
   border-bottom: 1px solid #401A68;
 }
 
-/* =============== Base on */
 .pink_dots {
   background: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%);
   width: 15px;
@@ -370,9 +357,6 @@ textarea:focus {
   border-radius: 50%;
 }
 
-
-
-/* ============================ ourRangeBG */
 .ourRangeBG {
   background-image: url('./assets/img/webp/ourRange.webp');
   background-position: center;
@@ -396,7 +380,6 @@ textarea:focus {
   right: -5%;
 }
 
-/* =================== price */
 .price_bg {
   background: rgba(22, 15, 47, 0.5);
   backdrop-filter: blur(9px);
@@ -426,7 +409,6 @@ textarea:focus {
   opacity: 1;
 }
 
-/* =========== productsDetials */
 .w_50 {
   width: 50px;
 }
@@ -451,7 +433,6 @@ textarea:focus {
   transition: 0.2s ease-in-out all;
 }
 
-/* ==============canadaMail */
 .bg_canadaMail {
   background-image: url('./assets/img/webp/canadaMailOrder.webp');
   background-position: center;
@@ -484,7 +465,6 @@ textarea:focus {
   ;
 }
 
-/* spaceship */
 .starBg {
   background-image: url('./assets/img/webp/spaceShip.webp');
   background-position: center;
@@ -552,7 +532,6 @@ textarea:focus {
   z-index: 1;
 }
 
-/* OurClassifications */
 .OurClassifications_bg {
   background-image: url('./assets/img/webp/OurClassifications_bg.webp');
   background-position: top;
@@ -571,7 +550,6 @@ textarea:focus {
   width: 20px;
 }
 
-/* MostPopularItems */
 .MostPopularItems_bg {
   background-image: url('./assets/img/webp/mostPopularItems.webp');
   background-position: top;
@@ -579,7 +557,6 @@ textarea:focus {
   background-size: cover;
 }
 
-/* ======most popular items */
 .popularItems_bg {
   background: rgba(22, 15, 47, 0.5);
   backdrop-filter: blur(9px);
@@ -598,14 +575,11 @@ textarea:focus {
   padding-bottom: 12px;
 }
 
-/* ==========panda */
-
 .outlinePanda:hover .imgPanda {
   outline: 2px solid #A020F0;
   border-radius: 10px;
 }
 
-/* =========LatestBlogsAndNews */
 .LatestBlogsAndNews_bg {
   background-image: url('./assets/img/webp/LatestBlogsAndNews_bg.webp');
   background-position: top;
@@ -613,12 +587,10 @@ textarea:focus {
   background-size: cover;
 }
 
-/* time */
 .borderBottom {
   border-bottom: 1px solid #DD22E696;
 }
 
-/* footer */
 .footer_bg {
   background-image: url('./assets/img/webp/footer.webp');
   background-repeat: no-repeat;
@@ -659,7 +631,6 @@ textarea:focus {
 }
 
 
-/* ================== contact */
 .Contact_bg {
   background-image: url('./assets/img/webp/contect_bg.webp');
   background-position: bottom;
@@ -682,7 +653,6 @@ textarea:focus {
   width: 35%;
 }
 
-/* ==================================== */
 .overflow_hidden_preloder {
   overflow: hidden;
   position: relative;
@@ -775,7 +745,6 @@ textarea:focus {
   animation-name: ball2;
 }
 
-/* ==================================== */
 @media (max-width:576px) {
   .rightLeave {
     right: 0% !important;
@@ -906,7 +875,6 @@ textarea:focus {
 
 }
 
-/* ======================= animation */
 
 .animation_cloudes {
   animation: clouds 6s linear infinite alternate;
@@ -926,7 +894,6 @@ textarea:focus {
   }
 }
 
-/* Dark theme  */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: hsl(var(--hue), 10%, 10%);
@@ -934,7 +901,6 @@ textarea:focus {
   }
 }
 
-/* Animation */
 @keyframes ring {
   from {
     animation-timing-function: ease-in-out;
