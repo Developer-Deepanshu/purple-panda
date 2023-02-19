@@ -818,7 +818,7 @@ textarea:focus {
 /* ======================= animation */
 
 .animation_cloudes {
-  animation: clouds 6s linear infinite alternate-reverse;
+  animation: clouds 6s linear infinite alternate;
 }
 
 @keyframes clouds {
@@ -993,11 +993,29 @@ textarea:focus {
   opacity: 0;
 }
 
-/*
-#hamburger-1.is-active .line:nth-child(1) {}
-
-#hamburger-1.is-active .line:nth-child(3) {} */
 .position_crossNav {
   top: 90px;
   right: 10px;
+}
+
+.prupleShadow {
+  background: #9F00FF;
+  filter: blur(134.5px);
+  width: 20%;
+  height: 20%;
+  z-index: 2;
+  animation: purpleShadow 3s ease-in-out alternate;
+}
+
+.prupleShadow_10 {
+  background: #9F00FF;
+  filter: blur(134.5px);
+  width: 15%;
+  height: 15%;
+  z-index: 2;
+  animation: purpleShadow 3s ease-in-out alternate;
+}
+
+.top_50 {
+  top: 50%;
 }

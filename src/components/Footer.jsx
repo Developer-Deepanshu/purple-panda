@@ -5,7 +5,8 @@ function Footer() {
   return (
     <>
       <footer>
-        <div className="footer_bg pt-5">
+        <div className="footer_bg pt-5 position-relative">
+          <span className="position-absolute prupleShadow top-0 end-0"></span>
           <div className="container">
             <div className="text-center">
               <img className="w_footerLogo" src={logo} alt="logo" />

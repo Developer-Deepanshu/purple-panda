@@ -11,7 +11,8 @@ function Price() {
   }, []);
   return (
     <>
-      <section className="py-md-5">
+      <section className="py-md-5 position-relative">
+        <span className="position-absolute prupleShadow_10 top-0 start-0"></span>
         <div className="container pt-5">
           <div
             className="row align-items-center price_bg justify-content-between outlinePurrple

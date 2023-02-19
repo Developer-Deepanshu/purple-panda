@@ -66,12 +66,13 @@ function Products() {
   };
   return (
     <>
-      <section className="pt-5">
+      <section className="pt-5 position-relative">
+        <span className="position-absolute prupleShadow top_50 start-0"></span>
         <div className="container mt-3 pb-4">
-          <div className="row justify-content-between">
+          <div className="row justify-content-between ">
             <Slider {...settings}>
               <div
-                className="col"
+                className="col py-1"
                 data-aos="fade-right"
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"
@@ -85,7 +86,7 @@ function Products() {
                 </div>
               </div>
               <div
-                className="col"
+                className="col py-1"
                 data-aos="fade-right"
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"
@@ -99,7 +100,7 @@ function Products() {
                 </div>
               </div>
               <div
-                className="col"
+                className="col py-1"
                 data-aos="fade-right"
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"
@@ -113,7 +114,7 @@ function Products() {
                 </div>
               </div>
               <div
-                className="col"
+                className="col py-1"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"
@@ -127,7 +128,7 @@ function Products() {
                 </div>
               </div>
               <div
-                className="col"
+                className="col py-1"
                 data-aos="fade-left"
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"
@@ -141,7 +142,7 @@ function Products() {
                 </div>
               </div>
               <div
-                className="col"
+                className="col py-1"
                 data-aos="fade-left"
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"
@@ -155,7 +156,7 @@ function Products() {
                 </div>
               </div>
               <div
-                className="col"
+                className="col py-1"
                 data-aos="fade-left"
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"

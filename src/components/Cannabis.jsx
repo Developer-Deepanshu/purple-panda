@@ -15,7 +15,8 @@ function Cannabis() {
   }, []);
   return (
     <>
-      <section className="pt-md-5 pb-5">
+      <section className="pt-md-5 pb-5 position-relative">
+        <span className="position-absolute prupleShadow_10 top-0 end-0"></span>
         <div className="aboutUsBG">
           <div className="container py-5">
             <h2

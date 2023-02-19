@@ -55,7 +55,8 @@ function MostPopularItems() {
   };
   return (
     <>
-      <section className="py-5" id="Shop">
+      <section className="py-5 position-relative" id="Shop">
+        <span className="position-absolute prupleShadow_10 top-0 start-0"></span>
         <div className="MostPopularItems_bg">
           <div className="container pb-4">
             <h2
@@ -80,7 +81,7 @@ function MostPopularItems() {
             <div className="row pt-3 pt-md-5">
               <Slider {...settings}>
                 <div
-                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto"
+                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto py-1"
                   data-aos="fade-right"
                   data-aos-anchor-placement="top"
                   data-aos-delay="300"
@@ -104,7 +105,7 @@ function MostPopularItems() {
                   </div>
                 </div>
                 <div
-                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto"
+                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto py-1"
                   data-aos="fade-right"
                   data-aos-anchor-placement="top"
                   data-aos-delay="300"
@@ -128,7 +129,7 @@ function MostPopularItems() {
                   </div>
                 </div>
                 <div
-                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto"
+                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto py-1"
                   data-aos="fade-left"
                   data-aos-anchor-placement="top"
                   data-aos-delay="300"
@@ -152,7 +153,7 @@ function MostPopularItems() {
                   </div>
                 </div>
                 <div
-                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto"
+                  className=" col-11 col-sm-6 col-md-5 col-xl-3 px-2 mx-auto py-1"
                   data-aos="fade-left"
                   data-aos-anchor-placement="top"
                   data-aos-delay="300"

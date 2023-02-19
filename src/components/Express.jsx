@@ -11,7 +11,8 @@ function Express() {
   }, []);
   return (
     <>
-      <section>
+      <section className="position-relative">
+        <span className="position-absolute prupleShadow_10 top-0 end-0"></span>
         <div className="container py-5">
           <div className="row align-items-center justify-content-between flex-column flex-xl-row">
             <div
