@@ -14,7 +14,7 @@ function OurClassifications() {
       <section className="py-md-5">
         <div className="OurClassifications_bg pt-xl-5">
           <div className="container">
-            <div className="row">
+            <div className="row justify-content-center justify-content-xl-start">
               <div className="col-md-10 col-xl-6 mx_max_xl_auto ">
                 <div className="OurClassifications_card_bg py-4 px-3 px-sm-5">
                   <h2
