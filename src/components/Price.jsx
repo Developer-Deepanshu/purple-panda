@@ -46,8 +46,7 @@ function Price() {
                   <a
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40
-                     p_nav_signIn fw-bold
-                 fs_lg ff_Montserrat mt-4 hoverBtn"
+                     p_nav_signIn fw-bold fs_lg ff_Montserrat mt-4 hoverBtn"
                     data-aos="fade-right"
                     data-aos-anchor-placement="top"
                     data-aos-delay="400"
@@ -65,7 +64,7 @@ function Price() {
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"
                 data-aos-offset="200"
-                className="w-100 transform_scale mushroomImg"
+                className="w-100 transform_scale"
                 src={mushroom}
                 alt="mushroom"
               />

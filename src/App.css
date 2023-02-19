@@ -285,7 +285,7 @@ textarea:focus {
 }
 
 .hoverBtn {
-  transition: 0.2s ease-in-out all;
+  transition: 0.2s ease-in-out all !important;
 }
 
 .hoverBtn:hover {
@@ -405,7 +405,7 @@ textarea:focus {
 }
 
 .transform_scale {
-  transform: scale(1.07) translateY(-13px);
+  transform: scale(1.10) translateY(-20px) !important;
 }
 
 .outlinePurrple:hover {

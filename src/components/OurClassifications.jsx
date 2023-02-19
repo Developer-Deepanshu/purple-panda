@@ -12,7 +12,7 @@ function OurClassifications() {
   return (
     <>
       <section className="py-md-5">
-        <div className="OurClassifications_bg">
+        <div className="OurClassifications_bg pt-xl-5">
           <div className="container">
             <div className="row">
               <div className="col-md-10 col-xl-6 mx_max_xl_auto ">

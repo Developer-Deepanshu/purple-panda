@@ -16,7 +16,7 @@ function AboutUs() {
   return (
     <>
       <section className="pb-5" id="About">
-        <div className="aboutUsBG">
+        <div className="aboutUsBG py-xl-5">
           <div className="container py-5">
             <div className="row align-items-center flex-column-reverse flex-xl-row">
               <div
