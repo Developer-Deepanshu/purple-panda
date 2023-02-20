@@ -32,7 +32,6 @@
 :root {
   --color-blue: #07031D;
   --color-blue-100: #15082F;
-  ;
   --color-purple: #2F015B;
   --color-purpleGrident: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%);
   --color-gray-grident: linear-gradient(0deg, #212121, #212121), linear-gradient(0deg, #565656, #565656);
@@ -489,23 +488,23 @@ textarea:focus {
 }
 
 .p_space_cloude1 {
-  height: 67.41551971435547px;
-  width: 141.01988220214844px;
+  height: 67.5px;
+  width: 141px;
 }
 
 .p_space_cloude2 {
-  height: 63.10625076293945px;
-  width: 132.0506134033203px;
+  height: 63px;
+  width: 132px;
 }
 
 .p_space_cloude3 {
-  height: 51.14060592651367px;
-  width: 107.00872802734375px;
+  height: 51px;
+  width: 107px;
 }
 
 .p_space_cloude4 {
-  height: 63.10625076293945px;
-  width: 132.0506134033203px;
+  height: 63px;
+  width: 132px;
 }
 
 .position_space_cloude1 {
