@@ -744,6 +744,10 @@ textarea:focus {
   animation-name: ball2;
 }
 
+.slick-dots li button:before {
+  color: white !important;
+}
+
 @media (max-width:576px) {
   .rightLeave {
     right: 0% !important;
