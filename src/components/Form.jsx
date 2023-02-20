@@ -29,7 +29,7 @@ function Form() {
     var userName = document.getElementById("nameID");
     if (userName.value === "") {
       toast.error("Error", {
-        position: "top-center",
+        position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: true,
@@ -40,7 +40,7 @@ function Form() {
       });
     } else {
       toast.success("SUCCESS", {
-        position: "top-center",
+        position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: true,
@@ -146,13 +146,13 @@ function Form() {
                   >
                     SUBMIT
                   </button>
-                  <ToastContainer />
                 </form>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <ToastContainer />
     </>
   );
 }
