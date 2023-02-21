@@ -22,28 +22,31 @@ function OurRange() {
             >
               Our <span className="text_purpleGrident">Range</span>
             </h2>
-            <p
-              className="fw-normal text-white ff_Montserrat fs_md text-center mt-sm-4"
-              data-aos="fade-up"
-              data-aos-anchor-placement="top"
-              data-aos-delay="400"
-              data-aos-offset="200"
-            >
-              We have a variety of different recreational and medicinal items in
-              our range, including cannabis, vapes, edibles, magic mushrooms,
-              extracts, and CBD products, to help you unwind, have fun, and even
-              do some valuable soul searching.
-            </p>
-            <p
-              className="fw-normal text-white ff_Montserrat fs_md text-center mb-0 pb-5 pt-sm-3"
-              data-aos="fade-up"
-              data-aos-anchor-placement="top"
-              data-aos-delay="400"
-              data-aos-offset="200"
-            >
-              Whether you’re looking to order edibles online or browse for your
-              new favorite strain, Purple Panda has got you covered.
-            </p>
+            <div className="col-7 mx-auto">
+              <p
+                className="fw-normal text-white ff_Montserrat fs_md text-center mt-sm-4"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top"
+                data-aos-delay="400"
+                data-aos-offset="200"
+              >
+                We have a variety of different recreational and medicinal items
+                in our range, including cannabis, vapes, edibles, magic
+                mushrooms, extracts, and CBD products, to help you unwind, have
+                fun, and even do some valuable soul searching.
+              </p>
+
+              <p
+                className="fw-normal text-white ff_Montserrat fs_md text-center mb-0 pb-5 pt-sm-3"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top"
+                data-aos-delay="400"
+                data-aos-offset="200"
+              >
+                Whether you’re looking to order edibles online or browse for
+                your new favorite strain, Purple Panda has got you covered.
+              </p>
+            </div>
           </div>
         </div>
       </section>

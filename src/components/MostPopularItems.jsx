@@ -68,16 +68,18 @@ function MostPopularItems() {
             >
               Most <span className="text_purpleGrident">Popular</span> Items
             </h2>
-            <p
-              className="text-center text-white fw-normal fs_md mb-0"
-              data-aos="fade-up"
-              data-aos-anchor-placement="top"
-              data-aos-delay="300"
-              data-aos-offset="200"
-            >
-              Pellentesque tincidunt fermentum mauris dignissim quam arcu. A
-              netus natoque urna vivamus faucibus. Sollicitudin et nisl.
-            </p>
+            <div className="col-5 mx-auto">
+              <p
+                className="text-center text-white fw-normal fs_md mb-0"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top"
+                data-aos-delay="300"
+                data-aos-offset="200"
+              >
+                Pellentesque tincidunt fermentum mauris dignissim quam arcu. A
+                netus natoque urna vivamus faucibus. Sollicitudin et nisl.
+              </p>
+            </div>
             <div className="row pt-3 pt-md-5">
               <Slider {...settings}>
                 <div

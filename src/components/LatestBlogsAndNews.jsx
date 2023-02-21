@@ -26,16 +26,6 @@ function LatestBlogsAndNews() {
               Latest <span className="text_purpleGrident">Blogs</span> And{" "}
               <span className="text_purpleGrident">News</span>
             </h2>
-            <p
-              className="text-center text-white fw-normal fs_md mb-0"
-              data-aos="fade-up"
-              data-aos-anchor-placement="top"
-              data-aos-delay="300"
-              data-aos-offset="200"
-            >
-              Pellentesque tincidunt fermentum mauris dignissim quam arcu. A
-              netus natoque urna vivamus faucibus. Sollicitudin et nisl.
-            </p>
             <div className="row pt-5">
               <div
                 className=" col-10 col-sm-6 col-xl-4 mx-auto "

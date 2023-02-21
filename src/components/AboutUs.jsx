@@ -20,7 +20,7 @@ function AboutUs() {
           <div className="container py-5">
             <div className="row align-items-center flex-column-reverse flex-xl-row">
               <div
-                className="col-xl-6 mt-4 mt-xl-5"
+                className="col-xl-6 mt-4 mt-xl-6"
                 data-aos="fade-right"
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"
@@ -57,7 +57,7 @@ function AboutUs() {
                 </div>
               </div>
               <div
-                className="col-sm-9 col-xl-6"
+                className="col-sm-9 col-xl-5"
                 data-aos="fade-left"
                 data-aos-anchor-placement="top"
                 data-aos-delay="400"

@@ -24,18 +24,21 @@ function CanadaMailOrder() {
           >
             Canada Wide <span className="text_purpleGrident">Mail Orders</span>
           </h2>
-          <p
-            className="text-white fw-normal ff_Montserrat fs_md text-center"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top"
-            data-aos-delay="300"
-            data-aos-offset="200"
-          >
-            Purple Panda offers discreet mail orders to all provinces in Canada,
-            we have new list of products everyday to serve your needs whether
-            its recreational or medinical use. We ship the next business day
-            from Monday-Thursdays, EMT payment is required for all mail orders
-          </p>
+          <div className="col-9 mx-auto">
+            <p
+              className="text-white fw-normal ff_Montserrat fs_md text-center"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top"
+              data-aos-delay="300"
+              data-aos-offset="200"
+            >
+              Purple Panda offers discreet mail orders to all provinces in
+              Canada, we have new list of products everyday to serve your needs
+              whether its recreational or medinical use. We ship the next
+              business day from Monday-Thursdays, EMT payment is required for
+              all mail orders
+            </p>
+          </div>
           <div className="row mt-5 pt-5 justify-content-center">
             <div
               className="col-sm-6 col-lg-4"

@@ -186,6 +186,15 @@
   border-radius: 16px;
   background: linear-gradient(0deg, #212121, #212121),
     linear-gradient(0deg, #565656, #565656);
+  padding-bottom: 5px;
+}
+
+.mw_500 {
+  max-width: 500px;
+}
+
+.mw_177 {
+  max-width: 177px;
 }
 
 input:focus {
@@ -197,7 +206,7 @@ textarea:focus {
 }
 
 .placeholderColor::placeholder {
-  color: rgba(255, 255, 255, 0.842) !important;
+  color: white !important;
   font-size: var(--text-xsm);
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -222,8 +231,8 @@ textarea:focus {
 }
 
 .p_nav_signIn {
-  padding-left: 43px;
-  padding-right: 43px;
+  padding-left: 38px;
+  padding-right: 38px;
   padding-top: 15px;
   padding-bottom: 12px;
 }
@@ -343,6 +352,10 @@ textarea:focus {
   grid-row: 3/5;
 }
 
+.border_radius16 {
+  border-radius: 16;
+}
+
 .border_radius10 {
   border-radius: 10px;
   border-top: 1px solid #401A68;
@@ -357,10 +370,15 @@ textarea:focus {
 }
 
 .ourRangeBG {
-  background-image: url('./assets/img/webp/ourRange.webp');
+  background-image: url('./assets/img/png/our_range.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 1px solid #411A68
+}
+
+.ourRangeBG:hover {
+  outline: 1.5px solid #6d1dbe
 }
 
 .bg_bseOn {
@@ -834,7 +852,10 @@ textarea:focus {
 }
 
 @media (max-width:1200px) {
-
+  .mx_auto_max_xl {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .min_vh_max_xl {
     min-height: 100vh;

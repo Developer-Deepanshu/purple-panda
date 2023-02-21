@@ -28,19 +28,21 @@ function Cannabis() {
             >
               Cannabis
             </h2>
-            <p
-              className="text-center ff_Montserrat fs_md text-white fw-normal"
-              data-aos="fade-up"
-              data-aos-anchor-placement="top"
-              data-aos-delay="300"
-              data-aos-offset="200"
-            >
-              While we stock all sorts of products to make you feel great, we’re
-              experts and lovers of cannabis at heart. We offer a wide range of
-              buds each with different highs, flavors, and aromas, so you can
-              find the perfect joint-filler, bowl-packer, or pipe clearer to
-              suit your tastes
-            </p>
+            <div className="col-8 mx-auto">
+              <p
+                className="text-center ff_Montserrat fs_md text-white fw-normal"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top"
+                data-aos-delay="300"
+                data-aos-offset="200"
+              >
+                While we stock all sorts of products to make you feel great,
+                we’re experts and lovers of cannabis at heart. We offer a wide
+                range of buds each with different highs, flavors, and aromas, so
+                you can find the perfect joint-filler, bowl-packer, or pipe
+                clearer to suit your tastes
+              </p>
+            </div>
             <div
               className="row align-items-center flex-column-reverse flex-xl-row
              mt-5"
@@ -57,7 +59,7 @@ function Cannabis() {
                     Strain
                     <span className="text_purpleGrident">Families</span>{" "}
                   </h2>
-                  <p className="text-white ff_Montserrat fs_md fw-normal mb-0 text-center">
+                  <p className="text-white ff_Montserrat fs_md fw-normal mb-0 text-center text-xl-start">
                     We stock the three main families of cannabis at Purple
                     Panda, each of which has its own qualities.
                   </p>
@@ -65,7 +67,7 @@ function Cannabis() {
                     <p className="fs_xl text-white fw-semibold ff_Montserrat">
                       Indica:
                     </p>
-                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center">
+                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center text-xl-start">
                       These are your bedtime buds, great for relaxing at the end
                       of the day and for treating stress and anxiety.
                     </p>
@@ -74,7 +76,7 @@ function Cannabis() {
                     <p className="fs_xl text-white fw-semibold ff_Montserrat">
                       Sativa:
                     </p>
-                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center">
+                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center text-xl-start">
                       Smoke up some Sativa for a boost of energy and creativity,
                       perfect for a sunny summer’s day with friends!
                     </p>
@@ -83,7 +85,7 @@ function Cannabis() {
                     <p className="fs_xl text-white fw-semibold ff_Montserrat">
                       Hybrid:
                     </p>
-                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center">
+                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center text-xl-start">
                       Get the best of both worlds with our Hybrid range,
                       bringing together the sensations and flavors of Indica and
                       Sativa for something totally unique.
@@ -91,7 +93,7 @@ function Cannabis() {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-9 col-xl-6 mb-5 mb-xl-0">
+              <div className="col-sm-9 col-xl-5 mb-5 mb-xl-0">
                 <div
                   className="d_grid"
                   data-aos="fade-left"

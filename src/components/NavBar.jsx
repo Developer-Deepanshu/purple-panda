@@ -108,7 +108,7 @@ function NavBar() {
                       href="#"
                       onClick={() => setclose(false)}
                     >
-                      Home
+                      HOME
                     </a>
                   </Link>
                 </li>
@@ -150,9 +150,9 @@ function NavBar() {
                     FAQ
                   </a>
                 </li>
-                <li className="position-relative d-none d-xl-block">
+                <li className="position-relative d-none d-xl-block mw_177">
                   <input
-                    className=" input_nav ps-2 pe_30 pt-1 pb-2 text-white placeholderColor"
+                    className="input_nav ps-2 pe_30 text-white placeholderColor"
                     type="text"
                     placeholder="Search here.."
                   />

@@ -43,7 +43,7 @@ function Price() {
                   fair, affordable prices for good products at every level of
                   quality and breed.
                 </p>
-                <div className="text-center text-xl-start">
+                <div className="text-center text-xl-start pt-2">
                   <a
                     href=""
                     className="d-inline-block text-white bg_purpleGrident border_radius40

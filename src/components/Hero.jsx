@@ -54,7 +54,7 @@ function Hero() {
                 Setting a <span className="text_purpleGrident">‘High’</span>{" "}
                 Standard
               </h1>
-              <p className="fw-normal ff_Montserrat fs_md text-white text-center text-xl-start">
+              <p className="fw-normal ff_Montserrat fs_md text-white text-center text-xl-start mw_500 mx_auto_max_xl">
                 We at Purple Panda are passionate about becoming the best online
                 weed dispensary Canada has ever seen. We believe in good
                 products, fair pricing, and top-notch customer service

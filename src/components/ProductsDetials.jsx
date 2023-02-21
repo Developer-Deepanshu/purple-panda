@@ -95,7 +95,7 @@ function ProductsDetials() {
                 </div>
                 <div className="ms-sm-4">
                   <div
-                    className="d-flex align-items-center mt-sm-4 mt-sm-0"
+                    className="d-flex align-items-center mt-sm-4 mt-xl-0 mt-sm-0"
                     data-aos="fade-left"
                     data-aos-anchor-placement="top"
                     data-aos-delay="300"
