@@ -68,7 +68,7 @@ function MostPopularItems() {
             >
               Most <span className="text_purpleGrident">Popular</span> Items
             </h2>
-            <div className="col-5 mx-auto">
+            <div className="col-lg-5 mx-auto">
               <p
                 className="text-center text-white fw-normal fs_md mb-0"
                 data-aos="fade-up"
@@ -91,10 +91,10 @@ function MostPopularItems() {
                 >
                   <div className="popularItems_bg p-3">
                     <img className="w-100" src={stoner} alt="stoner Patch" />
-                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
+                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3 mb-0">
                       Stoner Patch(500mg)
                     </p>
-                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
+                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-0 mb-4">
                       $20.00
                     </p>
                     <a
@@ -115,10 +115,10 @@ function MostPopularItems() {
                 >
                   <div className="popularItems_bg p-3">
                     <img className="w-100" src={atomic} alt="stoner atomic" />
-                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
+                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3 mb-0">
                       Stoner Patch(500mg)
                     </p>
-                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
+                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-0 mb-4">
                       $20.00
                     </p>
                     <a
@@ -139,10 +139,10 @@ function MostPopularItems() {
                 >
                   <div className="popularItems_bg p-3">
                     <img className="w-100" src={stick} alt="stoner stick" />
-                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
+                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3 mb-0">
                       Stoner Patch(500mg)
                     </p>
-                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
+                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-0 mb-4">
                       $20.00
                     </p>
                     <a
@@ -163,10 +163,10 @@ function MostPopularItems() {
                 >
                   <div className="popularItems_bg p-3">
                     <img className="w-100" src={stick} alt="stoner stick" />
-                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3">
+                    <p className="text-white fw-noraml fs_xl ff_Montserrat mt-3 mb-0">
                       Stoner Patch(500mg)
                     </p>
-                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-3 mb-4">
+                    <p className="fs_xl text_purpleGrident fw-bold ff_Montserrat mt-0 mb-4">
                       $20.00
                     </p>
                     <a

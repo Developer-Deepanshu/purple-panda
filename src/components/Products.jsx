@@ -68,7 +68,7 @@ function Products() {
     <>
       <section className="pt-5 position-relative">
         <span className="position-absolute prupleShadow top_50 start-0"></span>
-        <div className="container mt-3 pb-4">
+        <div className="container mt-3 pb-5">
           <div className="row justify-content-between ">
             <Slider {...settings}>
               <div

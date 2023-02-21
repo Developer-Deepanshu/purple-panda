@@ -34,7 +34,7 @@ function LatestBlogsAndNews() {
                 data-aos-delay="300"
                 data-aos-offset="200"
               >
-                <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between">
+                <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between align-items-start">
                   <div>
                     <img
                       className="w-100"
@@ -44,7 +44,7 @@ function LatestBlogsAndNews() {
                     <p className="text-white fw-noraml fs_xsm ff_Montserrat mt-3 mb-4">
                       12 Dec 2022
                     </p>
-                    <p className="fs_xl text-white fw-semibold ff_Montserrat mt-3">
+                    <p className="fs_xl text-white fw-semibold ff_Montserrat mt-3 mb-0">
                       Integer vulputate
                     </p>
                     <p className="text-white fw-noraml fs_md ff_Montserrat mt-2">
@@ -68,13 +68,13 @@ function LatestBlogsAndNews() {
                 data-aos-delay="300"
                 data-aos-offset="200"
               >
-                <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between">
+                <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between align-items-start">
                   <div>
                     <img className="w-100" src={raw} alt="raw " />
                     <p className="text-white fw-noraml fs_xsm ff_Montserrat mt-3 mb-4">
                       15 Nov 2022
                     </p>
-                    <p className="fs_xl text-white fw-semibold ff_Montserrat mt-3">
+                    <p className="fs_xl text-white fw-semibold ff_Montserrat mt-3 mb-0">
                       Lectus aenean
                     </p>
                     <p className="text-white fw-noraml fs_md ff_Montserrat mt-2">
@@ -98,13 +98,13 @@ function LatestBlogsAndNews() {
                 data-aos-delay="300"
                 data-aos-offset="200"
               >
-                <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between">
+                <div className="popularItems_bg p-3 h-100 d-flex flex-column justify-content-between align-items-start">
                   <div>
                     <img className="w-100" src={egestas} alt="egestas" />
                     <p className="text-white fw-noraml fs_xsm ff_Montserrat mt-3 mb-4">
                       22 Dec 2022
                     </p>
-                    <p className="fs_xl text-white fw-semibold ff_Montserrat mt-3">
+                    <p className="fs_xl text-white fw-semibold ff_Montserrat mt-3 mb-0">
                       Egestas odio
                     </p>
                     <p className="text-white fw-noraml fs_md ff_Montserrat mt-2">

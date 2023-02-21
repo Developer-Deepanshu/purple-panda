@@ -16,7 +16,7 @@ function PotentCannabisAlert() {
       <section className="py-md-5 overflow-hidden">
         <div className="container pt-md-5">
           <h2
-            className="text-white fs_xl4 text-center ff_Philosopher"
+            className="text-white fs_xl4 text-center fw-bold ff_Philosopher"
             data-aos="fade-up"
             data-aos-anchor-placement="top"
             data-aos-delay="300"

@@ -24,7 +24,7 @@ function CanadaMailOrder() {
           >
             Canada Wide <span className="text_purpleGrident">Mail Orders</span>
           </h2>
-          <div className="col-9 mx-auto">
+          <div className="col-lg-9 mx-auto">
             <p
               className="text-white fw-normal ff_Montserrat fs_md text-center"
               data-aos="fade-up"

@@ -29,7 +29,7 @@ function AboutUs() {
                 <div className="bg_filter p-3 p-sm-5 border_left position-relative">
                   <h2 className="fw-normal text-white ff_Philosopher fs_xl4">
                     About
-                    <span className="text_purpleGrident">Us</span>{" "}
+                    <span className="text_purpleGrident"> Us</span>{" "}
                   </h2>
                   <p className="text-white ff_Montserrat fs_md fw-normal mb-0">
                     Purple Panda is a Canadian online cannabis dispensary with a
@@ -65,19 +65,23 @@ function AboutUs() {
               >
                 <div className="d_grid">
                   <div className="grid_iteam1 pt-4">
-                    <img className="w-100" src={cart} alt="cart" />
+                    <img className="w-100 h-100" src={cart} alt="cart" />
                   </div>
                   <div className="grid_iteam2">
-                    <img className="w-100" src={mushroom} alt="mushroom" />
+                    <img
+                      className="w-100 h-100"
+                      src={mushroom}
+                      alt="mushroom"
+                    />
                   </div>
                   <div className="grid_iteam3">
-                    <img className="w-100" src={bottle} alt="bottle" />
+                    <img className="w-100 h-100" src={bottle} alt="bottle" />
                   </div>
                   <div className="grid_iteam4">
-                    <img className="w-100" src={cbd} alt="cbd" />
+                    <img className="w-100 h-100" src={cbd} alt="cbd" />
                   </div>
                   <div className="grid_iteam5">
-                    <img className="w-100" src={flower} alt="flower" />
+                    <img className="w-100 h-100" src={flower} alt="flower" />
                   </div>
                 </div>
               </div>

@@ -28,7 +28,7 @@ function Cannabis() {
             >
               Cannabis
             </h2>
-            <div className="col-8 mx-auto">
+            <div className="col-lg-8 mx-auto">
               <p
                 className="text-center ff_Montserrat fs_md text-white fw-normal"
                 data-aos="fade-up"
@@ -59,7 +59,7 @@ function Cannabis() {
                     Strain
                     <span className="text_purpleGrident">Families</span>{" "}
                   </h2>
-                  <p className="text-white ff_Montserrat fs_md fw-normal mb-0 text-center text-xl-start">
+                  <p className="text-white ff_Montserrat fs_md fw-normal mb-0 text-center text-lg-start">
                     We stock the three main families of cannabis at Purple
                     Panda, each of which has its own qualities.
                   </p>
@@ -67,7 +67,7 @@ function Cannabis() {
                     <p className="fs_xl text-white fw-semibold ff_Montserrat">
                       Indica:
                     </p>
-                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center text-xl-start">
+                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center text-lg-start">
                       These are your bedtime buds, great for relaxing at the end
                       of the day and for treating stress and anxiety.
                     </p>
@@ -76,7 +76,7 @@ function Cannabis() {
                     <p className="fs_xl text-white fw-semibold ff_Montserrat">
                       Sativa:
                     </p>
-                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center text-xl-start">
+                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center text-lg-start">
                       Smoke up some Sativa for a boost of energy and creativity,
                       perfect for a sunny summer’s day with friends!
                     </p>
@@ -85,7 +85,7 @@ function Cannabis() {
                     <p className="fs_xl text-white fw-semibold ff_Montserrat">
                       Hybrid:
                     </p>
-                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center text-xl-start">
+                    <p className="text-white ff_Montserrat fs_md fw-normal mb-0 ms-3 text-center text-lg-start">
                       Get the best of both worlds with our Hybrid range,
                       bringing together the sensations and flavors of Indica and
                       Sativa for something totally unique.
@@ -102,23 +102,31 @@ function Cannabis() {
                   data-aos-offset="200"
                 >
                   <div className="grid_iteam1 pt-4">
-                    <img className="w-100" src={flower} alt="flower" />
+                    <img className="w-100 h-100" src={flower} alt="flower" />
                   </div>
                   <div className="grid_iteam2">
                     <img
-                      className="w-100"
+                      className="w-100 h-100"
                       src={madicalSticks}
                       alt="madicalSticks"
                     />
                   </div>
                   <div className="grid_iteam3">
-                    <img className="w-100" src={blackGold} alt="blackGold" />
+                    <img
+                      className="w-100 h-100"
+                      src={blackGold}
+                      alt="blackGold"
+                    />
                   </div>
                   <div className="grid_iteam4">
-                    <img className="w-100" src={assorted} alt="assorted" />
+                    <img
+                      className="w-100 h-100"
+                      src={assorted}
+                      alt="assorted"
+                    />
                   </div>
                   <div className="grid_iteam5">
-                    <img className="w-100" src={medical} alt="medical" />
+                    <img className="w-100 h-100" src={medical} alt="medical" />
                   </div>
                 </div>
               </div>

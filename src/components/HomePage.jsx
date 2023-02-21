@@ -32,7 +32,7 @@ function HomePage() {
       <div className="overflow_hidden_preloder">
         {preload && <Loading />}
         <div className="bg_blue">
-          <div className="min-vh-100 d-flex flex-column hero_bg">
+          <div className="min_vh_xl d-flex flex-column hero_bg">
             <NavBar />
             <Hero />
           </div>

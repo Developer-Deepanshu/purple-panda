@@ -10,11 +10,11 @@ function OurRange() {
   }, []);
   return (
     <>
-      <section className="py-3 py-md-5">
+      <section className="py-md-3 py-md-5">
         <div className="container">
-          <div className="ourRangeBG py-md-5 px-3 px-md-5 border_radius10">
+          <div className="ourRangeBG py-xl-5 px-3 px-md-5 border_radius10">
             <h2
-              className="text-white fw-bold fs_xl4 text-center mb-0 py-3 py-md-5"
+              className="text-white fw-bold fs_xl4 text-center mb-0 py-3 py-lg-4 py-xl-5"
               data-aos="fade-up"
               data-aos-anchor-placement="top"
               data-aos-delay="400"
@@ -22,7 +22,7 @@ function OurRange() {
             >
               Our <span className="text_purpleGrident">Range</span>
             </h2>
-            <div className="col-7 mx-auto">
+            <div className="col-xl-7 mx-auto">
               <p
                 className="fw-normal text-white ff_Montserrat fs_md text-center mt-sm-4"
                 data-aos="fade-up"

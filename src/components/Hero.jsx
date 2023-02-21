@@ -41,7 +41,7 @@ function Hero() {
           <img className="w-100" src={upArrow} alt="back to top" />
         </button>
         <span className="position-absolute heroPandaShadow positon_shadow"></span>
-        <div className="container pt-5">
+        <div className="container pt-sm-5">
           <div className="row align-items-center justify-content-between flex-column flex-xl-row">
             <div
               className="col-xl-6  mt-4 mt-xl-0 position-relative z_index_3"
@@ -70,7 +70,7 @@ function Hero() {
               </div>
             </div>
             <div
-              className="col-sm-8 col-xl-5 position-relative z_index_n1"
+              className="col-sm-8 col-xl-5 position-relative z_index_n1 pb-5 pb-xl-0"
               data-aos="fade-left"
               data-aos-anchor-placement="top"
               data-aos-delay="300"

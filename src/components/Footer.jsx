@@ -18,7 +18,7 @@ function Footer() {
                 massa. Hac sit nec.
               </p>
             </div>
-            <div className="d-flex align-items-center justify-content-center gap-4 mb-3">
+            <div className="d-flex align-items-center justify-content-center gap-4 mb-4">
               <a
                 href=""
                 className="fw-semibold ff_Montserrat text-white fs_md footerBtn position-relative footerBtn"
@@ -39,7 +39,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="footer_line"></div>
+          <div className="footer_line mt-5"></div>
           <p className="text-center fw-normal fs_xsm ff_Montserrat text-white mb-0 pb-4 pt-2">
             copyright2022purplepanda
           </p>

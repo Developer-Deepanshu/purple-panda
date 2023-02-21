@@ -334,7 +334,7 @@ textarea:focus {
 
 .grid_iteam2 {
   grid-column: 1/3;
-  grid-row: 2/5;
+  grid-row: 2/4;
 }
 
 .grid_iteam3 {
@@ -422,8 +422,16 @@ textarea:focus {
   transition: 0.1s ease-in-out all;
 }
 
+.bgMushroomShadow {
+  transition: 0.2s ease-in-out all !important;
+}
+
 .hover_mushroom:hover .bgMushroomShadow {
   opacity: 1;
+}
+
+.hover_mushroom {
+  transition: 0.1s ease-in-out all !important;
 }
 
 .w_50 {
@@ -763,7 +771,7 @@ textarea:focus {
 }
 
 .slick-dots li button:before {
-  color: white !important;
+  color: #c35efd !important;
 }
 
 @media (max-width:576px) {
@@ -773,9 +781,9 @@ textarea:focus {
 
   :root {
     --text-xsm: 12px;
-    --text-sm: 12px;
-    --text-md: 12px;
-    --text-lg: 12px;
+    --text-sm: 13px;
+    --text-md: 14px;
+    --text-lg: 15px;
     --text-xl: 20px;
     --text-xl2: 25px;
     --text-xl3: 33px;
@@ -795,7 +803,7 @@ textarea:focus {
 @media (min-width:576px) {
   :root {
     --text-xsm: 12px;
-    --text-sm: 13px;
+    --text-sm: 14px;
     --text-md: 15px;
     --text-lg: 16px;
     --text-xl: 19px;
@@ -814,17 +822,11 @@ textarea:focus {
   }
 }
 
-@media (max-width:768px) {
-  .grid_iteam2 {
-    grid-column: 1/3;
-    grid-row: 2/4 !important;
-  }
-}
 
 @media (min-width:768px) {
   :root {
     --text-xsm: 12px;
-    --text-sm: 13px;
+    --text-sm: 14px;
     --text-md: 16px;
     --text-lg: 16px;
     --text-xl: 23px;
@@ -844,8 +846,6 @@ textarea:focus {
 }
 
 @media (min-width:992px) {
-
-
   .mb_n20 {
     margin-top: -10%;
   }
@@ -860,6 +860,7 @@ textarea:focus {
   .min_vh_max_xl {
     min-height: 100vh;
   }
+
 }
 
 @media (min-width:1200px) {
@@ -882,6 +883,10 @@ textarea:focus {
   .mb_n20 {
     margin-top: -9%;
   }
+
+  .min_vh_xl {
+    min-height: 100vh;
+  }
 }
 
 @media (min-width:1400) {
@@ -896,9 +901,7 @@ textarea:focus {
     --text-xl4: 48px;
     --text-xl5: 80px;
   }
-
 }
-
 
 .animation_cloudes {
   animation: clouds 6s linear infinite alternate;

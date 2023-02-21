@@ -27,7 +27,7 @@ function BaseOn() {
               with our delivery service covering:
             </h3>
             <p
-              className="fs_md text-white ff_Montserrat fw-normal text-center mb-0"
+              className="fs_md text-white ff_Montserrat fw-normal text-center mb-0 mt-3"
               data-aos="fade-up"
               data-aos-anchor-placement="top"
               data-aos-delay="400"
@@ -37,8 +37,8 @@ function BaseOn() {
               know where to go!
             </p>
           </div>
-          <div className="row pt-sm-4 flex-column flex-xl-row">
-            <div className="mx-auto col-sm-10 col-xl-6 position-relative">
+          <div className="row pt-sm-4 flex-column flex-lg-row">
+            <div className="mx-auto col-sm-10 col-lg-6 position-relative">
               <img
                 className="position-absolute bottom-0 end-0"
                 src={leftLeave}
@@ -97,7 +97,7 @@ function BaseOn() {
                 </div>
               </div>
             </div>
-            <div className="mx-auto col-sm-10 col-xl-6 position-relative mt-4 mt-xl-0">
+            <div className="mx-auto col-sm-10 col-lg-6 position-relative mt-4 mt-lg-0">
               <img
                 className="position-absolute rightLeave"
                 src={rightLeave}

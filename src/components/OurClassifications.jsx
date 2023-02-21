@@ -75,7 +75,7 @@ function OurClassifications() {
                     Very affordable , entry level quality
                   </p>
                   <div
-                    className="d-flex align-items-center mt-5 justify-content-center justify-content-lg-start"
+                    className="d-flex align-items-center mt-md-5 justify-content-center justify-content-lg-start"
                     data-aos="fade-right"
                     data-aos-anchor-placement="top"
                     data-aos-delay="300"
@@ -116,7 +116,7 @@ function OurClassifications() {
                     Tried, tested, and affordable.
                   </p>
                   <div
-                    className="d-flex align-items-center mt-5 justify-content-center justify-content-lg-start"
+                    className="d-flex align-items-center mt-md-5 justify-content-center justify-content-lg-start"
                     data-aos="fade-right"
                     data-aos-anchor-placement="top"
                     data-aos-delay="300"
@@ -162,7 +162,7 @@ function OurClassifications() {
                     A step up in terms of taste, high, and quality.
                   </p>
                   <div
-                    className="d-flex align-items-center mt-5 justify-content-center justify-content-lg-start"
+                    className="d-flex align-items-center mt-md-5 justify-content-center justify-content-lg-start"
                     data-aos="fade-right"
                     data-aos-anchor-placement="top"
                     data-aos-delay="300"
