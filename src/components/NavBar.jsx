@@ -151,23 +151,25 @@ function NavBar() {
                   </a>
                 </li>
                 <li className="position-relative d-none d-xl-block mw_177">
-                  <input
-                    className="input_nav ps-2 pe_30 text-white placeholderColor"
-                    type="text"
-                    placeholder="Search here.."
-                  />
-                  <a
-                    href=""
-                    className="d-inline-block"
-                    onClick={() => setclose(false)}
-                  >
-                    <img
-                      className="position-absolute search_btn_width position_search_btn
-                       bg_grayGrident"
-                      src={searchBtn}
-                      alt="searchBtn"
+                  <span className="d-inline-block w-100">
+                    <input
+                      className="input_nav ps-2 pe_30 w-100 text-white placeholderColor"
+                      type="text"
+                      placeholder="Search here.."
                     />
-                  </a>
+                    <a
+                      href=""
+                      className="d-inline-block"
+                      onClick={() => setclose(false)}
+                    >
+                      <img
+                        className="position-absolute search_btn_width position_search_btn
+                       bg_grayGrident"
+                        src={searchBtn}
+                        alt="searchBtn"
+                      />
+                    </a>
+                  </span>
                 </li>
                 <li className=" d-none d-xl-block">
                   <a
